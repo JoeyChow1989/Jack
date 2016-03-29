@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\studioSDK\gradle\gradle-2.8" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AutoLayout_demo" />
+            <option value="$PROJECT_DIR$/BasePopup-master" />
+            <option value="$PROJECT_DIR$/HotfixDemo_01" />
+            <option value="$PROJECT_DIR$/Inddicator" />
+            <option value="$PROJECT_DIR$/IndicatorBar_demo" />
+            <option value="$PROJECT_DIR$/JDAdverNotice" />
+            <option value="$PROJECT_DIR$/JsDemo" />
+            <option value="$PROJECT_DIR$/LoadMoreRecyclerView" />
+            <option value="$PROJECT_DIR$/MyDemo" />
+            <option value="$PROJECT_DIR$/MyRecyclerViewDemo" />
+            <option value="$PROJECT_DIR$/MyTaoBaoTest" />
+            <option value="$PROJECT_DIR$/RefreshDemo-master" />
+            <option value="$PROJECT_DIR$/TestSwitcherDemo" />
+            <option value="$PROJECT_DIR$/ToolBarDemo" />
+            <option value="$PROJECT_DIR$/VolleyDemo" />
+            <option value="$PROJECT_DIR$/YLive" />
+            <option value="$PROJECT_DIR$/ZxingTest" />
+            <option value="$PROJECT_DIR$/android-material-drawer-template-master" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/autolayout" />
+            <option value="$PROJECT_DIR$/eventbus_demo" />
+            <option value="$PROJECT_DIR$/groovyModel" />
+            <option value="$PROJECT_DIR$/vitamio" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

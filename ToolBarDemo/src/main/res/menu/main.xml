@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/img_3"
+        android:orderInCategory="80"
+        android:title="编辑"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/img_4"
+        android:orderInCategory="90"
+        android:title="分享"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_settings1"
+        android:orderInCategory="100"
+        android:title="设置"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:title="设置"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings3"
+        android:orderInCategory="100"
+        android:title="设置"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings4"
+        android:orderInCategory="100"
+        android:title="设置"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings5"
+        android:orderInCategory="100"
+        android:title="设置"
+        app:showAsAction="never"/>
+</menu>
