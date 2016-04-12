@@ -154,7 +154,6 @@ public class ImageActivity extends Activity
 
     private void initData()
     {
-
         for (int i = 0; i < urls.length; i++)
         {
             Item item = new Item();

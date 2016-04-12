@@ -24,6 +24,5 @@ public class HotfixApplication extends Application {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-
     }
 }

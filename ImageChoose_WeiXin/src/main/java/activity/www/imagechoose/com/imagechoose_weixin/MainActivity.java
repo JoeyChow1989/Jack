@@ -140,11 +140,9 @@ public class MainActivity extends Activity implements ListImageDirPopupWindow.On
 		DisplayMetrics outMetrics = new DisplayMetrics();
 		getWindowManager().getDefaultDisplay().getMetrics(outMetrics);
 		mScreenHeight = outMetrics.heightPixels;
-
 		initView();
 		getImages();
 		initEvent();
-
 	}
 
 	/**
