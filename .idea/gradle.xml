@@ -5,7 +5,7 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="D:\studioSDK\gradle\gradle-2.8" />
+        <option name="gradleHome" value="G:\studio\gradle\gradle-2.10" />
         <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
@@ -18,16 +18,20 @@
             <option value="$PROJECT_DIR$/IndicatorBar_demo" />
             <option value="$PROJECT_DIR$/JDAdverNotice" />
             <option value="$PROJECT_DIR$/JsDemo" />
-            <option value="$PROJECT_DIR$/LoadMoreRecyclerView" />
+            <option value="$PROJECT_DIR$/MyArcMenu" />
             <option value="$PROJECT_DIR$/MyDemo" />
+            <option value="$PROJECT_DIR$/MyListViewAllCheck" />
+            <option value="$PROJECT_DIR$/MyMatrixImageDemo" />
             <option value="$PROJECT_DIR$/MyRecyclerViewDemo" />
             <option value="$PROJECT_DIR$/MyTaoBaoTest" />
+            <option value="$PROJECT_DIR$/PictureDrawable3D" />
             <option value="$PROJECT_DIR$/RefreshDemo-master" />
             <option value="$PROJECT_DIR$/TestActivitylifecycleCallbacks" />
             <option value="$PROJECT_DIR$/TestSwitcherDemo" />
             <option value="$PROJECT_DIR$/ToolBarDemo" />
             <option value="$PROJECT_DIR$/TuRingRobot" />
             <option value="$PROJECT_DIR$/VolleyDemo" />
+            <option value="$PROJECT_DIR$/WeiXinUI_Demo" />
             <option value="$PROJECT_DIR$/YLive" />
             <option value="$PROJECT_DIR$/ZxingTest" />
             <option value="$PROJECT_DIR$/android-material-drawer-template-master" />
@@ -35,6 +39,9 @@
             <option value="$PROJECT_DIR$/autolayout" />
             <option value="$PROJECT_DIR$/eventbus_demo" />
             <option value="$PROJECT_DIR$/groovyModel" />
+            <option value="$PROJECT_DIR$/imoocTreeView" />
+            <option value="$PROJECT_DIR$/imooc_festival_sms" />
+            <option value="$PROJECT_DIR$/titlebar" />
             <option value="$PROJECT_DIR$/vitamio" />
           </set>
         </option>
@@ -49,16 +56,20 @@
             <option value="$PROJECT_DIR$/IndicatorBar_demo" />
             <option value="$PROJECT_DIR$/JDAdverNotice" />
             <option value="$PROJECT_DIR$/JsDemo" />
-            <option value="$PROJECT_DIR$/LoadMoreRecyclerView" />
+            <option value="$PROJECT_DIR$/MyArcMenu" />
             <option value="$PROJECT_DIR$/MyDemo" />
+            <option value="$PROJECT_DIR$/MyListViewAllCheck" />
+            <option value="$PROJECT_DIR$/MyMatrixImageDemo" />
             <option value="$PROJECT_DIR$/MyRecyclerViewDemo" />
             <option value="$PROJECT_DIR$/MyTaoBaoTest" />
+            <option value="$PROJECT_DIR$/PictureDrawable3D" />
             <option value="$PROJECT_DIR$/RefreshDemo-master" />
             <option value="$PROJECT_DIR$/TestActivitylifecycleCallbacks" />
             <option value="$PROJECT_DIR$/TestSwitcherDemo" />
             <option value="$PROJECT_DIR$/ToolBarDemo" />
             <option value="$PROJECT_DIR$/TuRingRobot" />
             <option value="$PROJECT_DIR$/VolleyDemo" />
+            <option value="$PROJECT_DIR$/WeiXinUI_Demo" />
             <option value="$PROJECT_DIR$/YLive" />
             <option value="$PROJECT_DIR$/ZxingTest" />
             <option value="$PROJECT_DIR$/android-material-drawer-template-master" />
@@ -66,6 +77,9 @@
             <option value="$PROJECT_DIR$/autolayout" />
             <option value="$PROJECT_DIR$/eventbus_demo" />
             <option value="$PROJECT_DIR$/groovyModel" />
+            <option value="$PROJECT_DIR$/imoocTreeView" />
+            <option value="$PROJECT_DIR$/imooc_festival_sms" />
+            <option value="$PROJECT_DIR$/titlebar" />
             <option value="$PROJECT_DIR$/vitamio" />
           </set>
         </option>

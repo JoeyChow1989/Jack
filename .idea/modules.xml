@@ -11,16 +11,20 @@
       <module fileurl="file://$PROJECT_DIR$/JDAdverNotice/JDAdverNotice.iml" filepath="$PROJECT_DIR$/JDAdverNotice/JDAdverNotice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Jack.iml" filepath="$PROJECT_DIR$/Jack.iml" />
       <module fileurl="file://$PROJECT_DIR$/JsDemo/JsDemo.iml" filepath="$PROJECT_DIR$/JsDemo/JsDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LoadMoreRecyclerView/LoadMoreRecyclerView.iml" filepath="$PROJECT_DIR$/LoadMoreRecyclerView/LoadMoreRecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyArcMenu/MyArcMenu.iml" filepath="$PROJECT_DIR$/MyArcMenu/MyArcMenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyDemo/MyDemo.iml" filepath="$PROJECT_DIR$/MyDemo/MyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyListViewAllCheck/MyListViewAllCheck.iml" filepath="$PROJECT_DIR$/MyListViewAllCheck/MyListViewAllCheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyMatrixImageDemo/MyMatrixImageDemo.iml" filepath="$PROJECT_DIR$/MyMatrixImageDemo/MyMatrixImageDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyRecyclerViewDemo/MyRecyclerViewDemo.iml" filepath="$PROJECT_DIR$/MyRecyclerViewDemo/MyRecyclerViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyTaoBaoTest/MyTaoBaoTest.iml" filepath="$PROJECT_DIR$/MyTaoBaoTest/MyTaoBaoTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PictureDrawable3D/PictureDrawable3D.iml" filepath="$PROJECT_DIR$/PictureDrawable3D/PictureDrawable3D.iml" />
       <module fileurl="file://$PROJECT_DIR$/RefreshDemo-master/RefreshDemo-master.iml" filepath="$PROJECT_DIR$/RefreshDemo-master/RefreshDemo-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestActivitylifecycleCallbacks/TestActivitylifecycleCallbacks.iml" filepath="$PROJECT_DIR$/TestActivitylifecycleCallbacks/TestActivitylifecycleCallbacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestSwitcherDemo/TestSwitcherDemo.iml" filepath="$PROJECT_DIR$/TestSwitcherDemo/TestSwitcherDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToolBarDemo/ToolBarDemo.iml" filepath="$PROJECT_DIR$/ToolBarDemo/ToolBarDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/TuRingRobot/TuRingRobot.iml" filepath="$PROJECT_DIR$/TuRingRobot/TuRingRobot.iml" />
       <module fileurl="file://$PROJECT_DIR$/VolleyDemo/VolleyDemo.iml" filepath="$PROJECT_DIR$/VolleyDemo/VolleyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeiXinUI_Demo/WeiXinUI_Demo.iml" filepath="$PROJECT_DIR$/WeiXinUI_Demo/WeiXinUI_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/YLive/YLive.iml" filepath="$PROJECT_DIR$/YLive/YLive.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZxingTest/ZxingTest.iml" filepath="$PROJECT_DIR$/ZxingTest/ZxingTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-material-drawer-template-master/android-material-drawer-template-master.iml" filepath="$PROJECT_DIR$/android-material-drawer-template-master/android-material-drawer-template-master.iml" />
@@ -28,6 +32,9 @@
       <module fileurl="file://$PROJECT_DIR$/autolayout/autolayout.iml" filepath="$PROJECT_DIR$/autolayout/autolayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventbus_demo/eventbus_demo.iml" filepath="$PROJECT_DIR$/eventbus_demo/eventbus_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/groovyModel/groovyModel.iml" filepath="$PROJECT_DIR$/groovyModel/groovyModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imoocTreeView/imoocTreeView.iml" filepath="$PROJECT_DIR$/imoocTreeView/imoocTreeView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc_festival_sms/imooc_festival_sms.iml" filepath="$PROJECT_DIR$/imooc_festival_sms/imooc_festival_sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/titlebar/titlebar.iml" filepath="$PROJECT_DIR$/titlebar/titlebar.iml" />
       <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />
     </modules>
   </component>
