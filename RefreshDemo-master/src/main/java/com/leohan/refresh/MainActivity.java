@@ -136,7 +136,6 @@ public class MainActivity extends AppCompatActivity {
                 getData();
             }
         }, 1500);
-
     }
 
     /**

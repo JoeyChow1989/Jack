@@ -137,7 +137,6 @@ public class ImageActivity extends Activity
             @Override
             public void onErrorResponse(VolleyError volleyError)
             {
-                Toast.makeText(ImageActivity.this, volleyError.toString(), Toast.LENGTH_SHORT).show();
                 mImageView.setImageResource(R.mipmap.ic_launcher);
             }
         });
