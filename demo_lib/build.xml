@@ -1,0 +1,282 @@
+<project name="TEST" default="deploy" basedir=".">
+	<property environment="env" />
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+		<classpath>
+			<pathelement location="D:\Program Files\apache-ant-1.9.4\lib\ant-contrib-1.0b3.jar" />
+		</classpath>
+	</taskdef>
+	
+	<property name="appName" value="${ant.project.name}" />
+	<!-- SDK目录(获取操作系统环境变量ANDROID_SDK_HOME的值) -->
+	<property name="sdk-folder" value="${env.ANDROID_SDK_HOME}" />
+	<property name="sdk-platform-folder" value="${sdk-folder}/platforms/android-20" />
+	<property name="sdk-tools" value="${sdk-folder}/tools" />
+	<property name="sdk-platform-tools" value="${sdk-folder}/platform-tools" />
+	<property name="sdk-build-tools" value="${sdk-folder}/build-tools/20.0.0" />
+
+
+	<property name="aapt" value="${sdk-build-tools}/aapt" />
+	<property name="aidl" value="${sdk-build-tools}/aidl" />
+	<property name="dx" value="${sdk-build-tools}/dx.bat" />
+	<property name="apkbuilder" value="${sdk-tools}/apkbuilder.bat" />
+	<property name="jarsigner" value="${env.JAVA_HOME}/bin/jarsigner" />
+	<property name="zipalign" value="${sdk-tools}/zipalign.exe" />
+	<property name="proguard-home" value="${sdk-tools}/proguard/lib/proguard.jar"/>
+	<property name="android-jar" value="${sdk-platform-folder}/android.jar" />
+	<!-- <property name="android-maps-jar" value="${sdk-folder}/add-ons/addon_google_apis_google_inc_8/libs/maps.jar" /> -->
+
+	<property name="channelname" value="" />
+	<property name="channelkey" value="" />
+	
+	<property name="key" value="UMENG_CHANNEL:111，BaiDU：222" />
+	
+	<property name="framework-aidl" value="${sdk-platform-folder}/framework.aidl" />
+	<property name="manifest-xml" value="AndroidManifest.xml" />
+	<property name="resource-dir" value="res" />
+	<property name="asset-dir" value="assets" />
+	<property name="srcdir" value="src" />
+	<property name="srcdir-ospath" value="${basedir}/${srcdir}" />
+	<property name="external-lib" value="libs" />
+	<property name="external-lib-ospath" value="${basedir}/${external-lib}" />
+	
+	<property name="version" value="2.0" />
+	
+		<target name="deploy">
+			<foreach target="modify_manifest" list="${key}" param="nameandchannel" delimiter=",">
+			</foreach>
+		</target>
+		<target name="modify_manifest">
+			<!-- 获取渠道名字 -->
+			<propertyregex override="true" property="channelname" input="${nameandchannel}" regexp="(.*):" select="\1" />
+			<!-- 获取渠道号码 -->
+			<propertyregex override="true" property="channelkey" input="${nameandchannel}" regexp=":(.*)" select="\1" />
+			<!-- 正则匹配替换渠道号 -->
+			<replaceregexp flags="g" byline="false" encoding="UTF-8">
+				<regexp pattern='meta-data android:value="(.*)" android:name="app_key"' />
+				<substitution expression='meta-data android:value="${channelkey}" android:name="app_key"' />
+				<fileset dir="" includes="AndroidManifest.xml" />
+			</replaceregexp>
+			<antcall target="zipalign" />
+		</target>
+	
+	<target name="init">
+		<echo>目录初始化....</echo>
+		<var name="out" value="out"/>
+		<var name="outdir-gen" value="gen" />
+	<!-- 	<var name="outdir-bin" value="bin-${channelname}" /> -->
+		<var name="outdir-bin" value="bin-${channelname}" />
+		<var name="outdir-classes" value="${outdir-bin}/classes" />
+		<var name="outdir-classes-ospath" value="${basedir}/${outdir-classes}" />
+
+		<var name="dex-file" value="classes.dex" />
+		<var name="dex-path" value="${outdir-bin}/${dex-file}" />
+		<var name="dex-ospath" value="${basedir}/${dex-path}" />
+
+		<var name="resources-package" value="${outdir-bin}/resources.ap_" />
+		<var name="resources-package-ospath" value="${basedir}/${resources-package}" />
+
+		<var name="out-unsigned-package" value="${outdir-bin}/${appName}-unsigned.apk" />
+		<var name="out-unsigned-package-ospath" value="${basedir}/${out-unsigned-package}" />
+
+		<!-- 证书文件 -->
+		<var name="keystore-file" value="${basedir}/debug.keystore" />
+
+		<!-- 已认证apk包 -->
+		<var name="out-signed-package" value="${outdir-bin}/${appName}-${channelname}-${version}.apk" />
+		<var name="out-signed-package-ospath" value="${basedir}/${out-signed-package}" />
+		<delete dir="${outdir-bin}" />
+		<mkdir dir="${outdir-bin}" />
+		<mkdir dir="${outdir-classes}" />
+	</target>
+
+	<!-- 根据工程中的资源文件生成R.java文件  -->
+	<target name="gen-R" depends="init">
+		<echo>生成R.java文件....</echo>
+		<exec executable="${aapt}" failonerror="true">
+			<arg value="package" />
+			<arg value="-f" />
+			<arg value="-m" />
+			<arg value="-J" />
+			<arg value="${outdir-gen}" />
+			<arg value="-S" />
+			<arg value="${resource-dir}" />
+			<arg value="-M" />
+			<arg value="${manifest-xml}" />
+			<arg value="-I" />
+			<arg value="${android-jar}" />
+		</exec>
+	</target>
+
+	<!-- 编译aidl文件 -->
+	<target name="aidl" depends="gen-R">
+		<echo>编译aidl文件....</echo>
+		<apply executable="${aidl}" failonerror="true">
+			<!-- 指定预处理文件 -->
+			<arg value="-p${framework-aidl}" />
+			<!-- aidl声明的目录 -->
+			<arg value="-I${srcdir}" />
+			<!-- 目标文件目录 -->
+			<arg value="-o${outdir-gen}" />
+			<!-- 指定哪些文件需要编译 -->
+			<fileset dir="${srcdir}">
+				<include name="**/*.aidl" />
+			</fileset>
+		</apply>
+	</target>
+
+	<!-- 将工程中的java源文件编译成class文件 -->
+	<target name="compile" depends="aidl">
+		<echo>java源文件编译成class文件....</echo>
+		<javac encoding="UTF-8" target="1.6" srcdir="${basedir}" includeAntRuntime="false" destdir="${outdir-classes}" bootclasspath="${android-jar}" verbose="false">
+		<!-- 	<compilerarg line="-encoding GBK " /> -->
+			<compilerarg  line="-encoding UTF-8 "/>
+			<classpath>
+				<fileset dir="${external-lib}" includes="*.jar" />
+			</classpath>
+		</javac>
+	</target>
+	
+   
+	<!--Execute proguard class flies-->
+	<!-- 混淆代码-->
+
+	<target name="proguard" depends="compile">
+	    <echo> Execute proguard class flies... </echo>
+	    <echo> ="-libraryjars ${android-jar}" </echo>
+	    <mkdir dir="optimized"/>
+		<java jar="${proguard-home}" fork="true" failonerror="true"   >
+			<jvmarg value="-Dmaximum.inlined.code.length=32" />
+			 <arg value="-injars ${outdir-classes}" />
+			 <arg value="-outjars optimized" />
+			 
+			 <arg value="-libraryjars ${android-jar}" />
+			 <arg value="-libraryjars ${external-lib-ospath}/android-support-v4.jar"/>
+			 <arg value="-libraryjars ${external-lib-ospath}/fastjson-1.1.31.jar"/>
+			 <arg value="-libraryjars ${external-lib-ospath}/ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"/>
+             <arg value="-libraryjars ${external-lib-ospath}/pinyin4android1.0.jar"/>
+             <arg value="-libraryjars ${external-lib-ospath}/umeng_sdk.jar"/>
+             <arg value="-libraryjars ${external-lib-ospath}/zxing1.7.jar"/>
+             
+             <arg value="-optimizationpasses 7"/>
+             <arg value="-dontusemixedcaseclassnames"/>
+             <arg value="-dontskipnonpubliclibraryclasses"/>
+             <arg value="-dontpreverify"/>
+			 <arg value="-dontoptimize" />
+			 <arg value="-dontusemixedcaseclassnames" />
+			 <arg value="-repackageclasses ''" />
+			 <arg value="-allowaccessmodification" />
+			
+			<!-- 要保留自己的主ACTIVITY类 -->
+
+			<arg value="-keep public class * extends android.app.Activity" />
+			<arg value="-keep public class * extends android.app.Application"/>
+			<arg value="-keep public class * extends android.app.Service"/>
+			<arg value="-keep public class * extends android.content.BroadcastReceiver"/>
+			<arg value="-keep public class * extends android.content.ContentProvider"/>
+			<arg value="-keep public class * extends android.app.backup.BackupAgentHelper"/>
+			<arg value="-keep public class * extends android.preference.Preference"/>
+			<arg value="-keep public abstract interface com.asqw.android.Listener"/>
+			<arg value="-keep public class * extends android.view.View"/>
+			<arg value="@proguard-project.txt"/>
+			<arg value="-verbose" />
+			<arg value="-dontskipnonpubliclibraryclasses" />
+			<arg value="-optimizations !field/*,!class/merging/*"/> 
+			<arg value="-dontskipnonpubliclibraryclassmembers" />
+		</java>
+		<delete dir="${outdir-classes}"/>
+		<mkdir dir="${outdir-classes}"/>
+		<move  file="optimized" tofile="${outdir-classes}" />
+		<delete file="optimized"/>
+	</target>
+
+	<!-- 将.class文件转化成.dex文件 -->
+	<target name="dex" depends="proguard">
+		<echo>将.class文件转化成.dex文件....</echo>
+		<exec executable="${dx}" failonerror="true">
+			<arg value="--dex" />
+			<!-- 输出文件 -->
+			<arg value="--output=${dex-ospath}" />
+			<!-- 要生成.dex文件的源classes和libraries -->
+			<arg value="${outdir-classes-ospath}" />
+			<arg value="${external-lib-ospath}" />
+		</exec>
+	</target>
+
+	<!-- 将资源文件放进输出目录 -->
+	<target name="package-res-and-assets">
+		<echo>将资源文件放进输出目录....</echo>
+		<exec executable="${aapt}" failonerror="true">
+			<arg value="package" />
+			<arg value="-f" />
+			<arg value="-M" />
+			<arg value="${manifest-xml}" />
+			<arg value="-S" />
+			<arg value="${resource-dir}" />
+			<arg value="-A" />
+			<arg value="${asset-dir}" />
+			<arg value="-I" />
+			<arg value="${android-jar}" />
+			<arg value="-F" />
+			<arg value="${resources-package}" />
+		</exec>
+	</target>
+
+	<!-- 打包成未签证的apk -->
+	<target name="package" depends="dex, package-res-and-assets">
+		<echo>打包成未签证的apk....</echo>
+		<exec executable="${apkbuilder}" failonerror="true">
+			<arg value="${out-unsigned-package-ospath}" />
+			<arg value="-u" />
+			<arg value="-z" />
+			<arg value="${resources-package-ospath}" />
+			<arg value="-f" />
+			<arg value="${dex-ospath}" />
+			<arg value="-rf" />
+			<arg value="${srcdir-ospath}" />
+			<!-- 将so文件打包进去 -->
+			<arg value="-nf" />   
+			<arg value="${external-lib-ospath}" />  
+		</exec>
+	</target>
+
+	<!-- 对apk进行签证 -->
+	<target name="jarsigner" depends="package">
+		<echo>Packaging signed apk for release...</echo>
+		<exec executable="${jarsigner}" failonerror="true"  >
+			
+			<!--<arg value="-digestalg"/>
+						<arg value="SHA1"/>
+						<arg value="-sigalg"/>
+					    <arg value="MD5withRSA"/>-->
+			
+			<arg value="-keystore" />
+			<arg value="${keystore-file}" />
+			<arg value="-storepass" />
+			<arg value="123456" />
+			<arg value="-keypass" />
+			<arg value="123456" />
+			<arg value="-signedjar" />
+			<arg value="${out-signed-package-ospath}" />
+			<arg value="${out-unsigned-package-ospath}" />
+			<!-- 不要忘了证书的别名 -->
+			<arg value="test.keystore" />
+		</exec>
+	</target>
+
+	<!-- 发布 -->
+	<target name="release" depends="jarsigner">
+		<!-- 删除未签证apk -->
+		<delete file="${out-unsigned-package-ospath}" />
+		<echo>APK is released. path:${out-signed-package-ospath}</echo>
+	</target>
+	<!-- 打包的应用程序进行优化 -->
+	
+	<target name="zipalign" depends="release">
+		<exec executable="${zipalign}" failonerror="true">
+			<arg value="-v" />
+			<arg value="4" />
+			<arg value="${out-signed-package-ospath}" />
+			<arg value="${out-signed-package-ospath}-zipaligned.apk" />
+		</exec>
+	</target>
+</project>

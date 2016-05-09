@@ -1,11 +1,38 @@
 <resources>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+    </style>
+    
+    <style name="AppTheme.Day" parent="AppTheme">
+        <item name="backgroundValue">@color/white</item>
+        <item name="listBackgroundValue">@drawable/my_radius_day_back</item>
+        <item name="titleBackgroundValue">@color/blue</item>
+        <item name="textColorValue">@color/black</item>
+    </style>
+    
+    <style name="AppTheme.Night" parent="AppTheme">
+        <item name="backgroundValue">@color/deepBlack</item>
+        <item name="listBackgroundValue">@drawable/my_radius_night_back</item>
+        <item name="titleBackgroundValue">@color/deepBlack</item>
+        <item name="textColorValue">@color/white</item>
     </style>
 
 </resources>

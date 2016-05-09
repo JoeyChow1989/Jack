@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/Theme.Translucent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/fanwei_20_dp" >
+
+    <LinearLayout
+        android:id="@+id/fan_horizontal_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fanwei_bg_bombbox"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/fan_horizontal_pay_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/TextColorWhite"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/fanwei_horizontal_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="易宝支付" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/fan_err_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/fanwei_error_icon_imag" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fanwei_horizontal_err_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/fanwei_10_dp"
+            android:layout_marginRight="@dimen/fanwei_10_dp"
+            android:layout_marginTop="@dimen/fanwei_10_dp"
+            android:text="@string/fanwei_err_text"
+            android:textColor="@color/fanwei_color_banhui"
+            android:textSize="@dimen/text_18_size" />
+
+        <Button
+            android:id="@+id/fanwei_choose_bank_card"
+            style="@style/fanwei_btn_style"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/fanwei_15_dp"
+            android:text="@string/fanwei_Change_bank_card" />
+    </LinearLayout>
+
+</FrameLayout>

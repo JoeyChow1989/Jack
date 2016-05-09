@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fanwei_view_custom.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fanwei_view_custom.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\alipay_title.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\alipay_title.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\title.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\title.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_dialog_view.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_dialog_view.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_yeepay_listview_horizontal_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_yeepay_listview_horizontal_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_pay_failure_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_pay_failure_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_horizontal_deposit_grid_view_item.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_horizontal_deposit_grid_view_item.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_pay_failure_horizontal_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_pay_failure_horizontal_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_alert.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_alert.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_horizontal_pay_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_horizontal_pay_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_space_view_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_space_view_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_bank_card_title.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_bank_card_title.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_yeepay_list_item_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_yeepay_list_item_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_yeepay_listview_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_yeepay_listview_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\product_item.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\product_item.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_horizontal_grid_view_item.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_horizontal_grid_view_item.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_yb_web_wiew.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_yb_web_wiew.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\alipay.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\alipay.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_pay.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_pay.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\fan_pay_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\fan_pay_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ssssss.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\layout\\ssssss.xml"
+    }
+]

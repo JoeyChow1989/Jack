@@ -23,10 +23,10 @@
       <module fileurl="file://$PROJECT_DIR$/TestActivitylifecycleCallbacks/TestActivitylifecycleCallbacks.iml" filepath="$PROJECT_DIR$/TestActivitylifecycleCallbacks/TestActivitylifecycleCallbacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestSwitcherDemo/TestSwitcherDemo.iml" filepath="$PROJECT_DIR$/TestSwitcherDemo/TestSwitcherDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToolBarDemo/ToolBarDemo.iml" filepath="$PROJECT_DIR$/ToolBarDemo/ToolBarDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TuRingRobot/TuRingRobot.iml" filepath="$PROJECT_DIR$/TuRingRobot/TuRingRobot.iml" />
       <module fileurl="file://$PROJECT_DIR$/VolleyDemo/VolleyDemo.iml" filepath="$PROJECT_DIR$/VolleyDemo/VolleyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/WeiXinUI_Demo/WeiXinUI_Demo.iml" filepath="$PROJECT_DIR$/WeiXinUI_Demo/WeiXinUI_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/YLive/YLive.iml" filepath="$PROJECT_DIR$/YLive/YLive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhiHu_demo/ZhiHu_demo.iml" filepath="$PROJECT_DIR$/ZhiHu_demo/ZhiHu_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZxingTest/ZxingTest.iml" filepath="$PROJECT_DIR$/ZxingTest/ZxingTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-material-drawer-template-master/android-material-drawer-template-master.iml" filepath="$PROJECT_DIR$/android-material-drawer-template-master/android-material-drawer-template-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
@@ -38,7 +38,6 @@
       <module fileurl="file://$PROJECT_DIR$/imooc_festival_sms/imooc_festival_sms.iml" filepath="$PROJECT_DIR$/imooc_festival_sms/imooc_festival_sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/titlebar/titlebar.iml" filepath="$PROJECT_DIR$/titlebar/titlebar.iml" />
       <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zhihu_demo/zhihu_demo.iml" filepath="$PROJECT_DIR$/zhihu_demo/zhihu_demo.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/pay0.02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payfor_0.02"
+            tools:ignore="ButtonStyle" >
+        </Button>
+
+        <Button
+            android:id="@+id/pay1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payfor_1"
+            tools:ignore="ButtonStyle" >
+        </Button>
+
+        <Button
+            android:id="@+id/pay2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payfor_2"
+            tools:ignore="ButtonStyle" >
+        </Button>
+
+        <Button
+            android:id="@+id/pay4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payfor_4"
+            tools:ignore="ButtonStyle" >
+        </Button>
+
+        <Button
+            android:id="@+id/pay6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payfor_6"
+            tools:ignore="ButtonStyle" >
+        </Button>
+
+        <Button
+            android:id="@+id/pay8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payfor_8"
+            tools:ignore="ButtonStyle" >
+        </Button>
+
+        <Button
+            android:id="@+id/pay9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payfor_9"
+            tools:ignore="ButtonStyle" >
+        </Button>
+        
+        <Button
+            android:id="@+id/pay10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payfor_501"
+            tools:ignore="ButtonStyle" >
+        </Button>
+    </LinearLayout>
+
+</ScrollView>

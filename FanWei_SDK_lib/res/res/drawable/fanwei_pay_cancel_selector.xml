@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/fanwei_click_bg_imag" android:state_enabled="true" android:state_pressed="true"/>
+    <item android:drawable="@color/fanwei_color_touming" android:state_enabled="true"/>
+
+</selector>

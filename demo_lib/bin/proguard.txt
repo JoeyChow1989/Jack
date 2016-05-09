@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:59
+-keep class com.alipay.sdk.app.H5PayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.fanwei.sdk.activity.PayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.fanwei.sdk.activity.PayFailureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.fanwei.sdk.activity.WapPayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.fanwei.sdk.example.MainActivity { <init>(...); }
+
+# view res/layout/fan_yb_web_wiew.xml #generated:17
+-keep class com.fanwei.sdk.view.WebViewEx { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.heepay.plugin.activity.WeChatNotityActivity { <init>(...); }
+

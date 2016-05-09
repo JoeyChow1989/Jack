@@ -30,10 +30,10 @@
             <option value="$PROJECT_DIR$/TestActivitylifecycleCallbacks" />
             <option value="$PROJECT_DIR$/TestSwitcherDemo" />
             <option value="$PROJECT_DIR$/ToolBarDemo" />
-            <option value="$PROJECT_DIR$/TuRingRobot" />
             <option value="$PROJECT_DIR$/VolleyDemo" />
             <option value="$PROJECT_DIR$/WeiXinUI_Demo" />
             <option value="$PROJECT_DIR$/YLive" />
+            <option value="$PROJECT_DIR$/ZhiHu_demo" />
             <option value="$PROJECT_DIR$/ZxingTest" />
             <option value="$PROJECT_DIR$/android-material-drawer-template-master" />
             <option value="$PROJECT_DIR$/app" />
@@ -45,7 +45,6 @@
             <option value="$PROJECT_DIR$/imooc_festival_sms" />
             <option value="$PROJECT_DIR$/titlebar" />
             <option value="$PROJECT_DIR$/vitamio" />
-            <option value="$PROJECT_DIR$/zhihu_demo" />
           </set>
         </option>
         <option name="myModules">
@@ -71,10 +70,10 @@
             <option value="$PROJECT_DIR$/TestActivitylifecycleCallbacks" />
             <option value="$PROJECT_DIR$/TestSwitcherDemo" />
             <option value="$PROJECT_DIR$/ToolBarDemo" />
-            <option value="$PROJECT_DIR$/TuRingRobot" />
             <option value="$PROJECT_DIR$/VolleyDemo" />
             <option value="$PROJECT_DIR$/WeiXinUI_Demo" />
             <option value="$PROJECT_DIR$/YLive" />
+            <option value="$PROJECT_DIR$/ZhiHu_demo" />
             <option value="$PROJECT_DIR$/ZxingTest" />
             <option value="$PROJECT_DIR$/android-material-drawer-template-master" />
             <option value="$PROJECT_DIR$/app" />
@@ -86,7 +85,6 @@
             <option value="$PROJECT_DIR$/imooc_festival_sms" />
             <option value="$PROJECT_DIR$/titlebar" />
             <option value="$PROJECT_DIR$/vitamio" />
-            <option value="$PROJECT_DIR$/zhihu_demo" />
           </set>
         </option>
       </GradleProjectSettings>

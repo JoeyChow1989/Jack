@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fan_title_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:background="@color/fanwei_color_anshibanhui" >
+
+    <TextView
+        android:id="@+id/fanwei_title_text"
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/fanwei_back"
+        android:layout_alignBottom="@+id/fanwei_back"
+        android:layout_centerHorizontal="true"
+        android:text="@string/fanwei_title_text"
+        android:textColor="@color/TextColorWhite"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/fanwei_back"
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="14dp"
+        android:contentDescription="@null"
+        android:src="@drawable/fanwei_back_top_imag"
+        android:textColor="@color/TextColorWhite"
+        android:textSize="18sp" />
+
+</RelativeLayout>

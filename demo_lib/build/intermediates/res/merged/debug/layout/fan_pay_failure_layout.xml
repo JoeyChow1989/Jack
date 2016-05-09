@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/TextColorWhite"
+    android:orientation="vertical" >
+
+    <include layout="@layout/fan_bank_card_title" />
+
+    <LinearLayout
+        android:id="@+id/fan_err_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fan_title_layout"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:contentDescription="@null"
+            android:src="@drawable/fanwei_error_icon_imag" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fanwei_err_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fan_err_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/fanwei_10_dp"
+        android:layout_marginRight="@dimen/fanwei_10_dp"
+        android:layout_marginTop="@dimen/fanwei_30_dp"
+        android:gravity="center_horizontal"
+        android:text="@string/fanwei_err_text"
+        android:textColor="@color/fanwei_color_banhui"
+        android:textSize="@dimen/text_18_size" />
+
+    <Button
+        android:id="@+id/fanwei_Rebind_bank_card"
+        style="@style/fanwei_btn_style"
+        android:layout_below="@id/fanwei_err_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fanwei_98_dp"
+        android:text="@string/fanwei_Change_bank_card" />
+
+</RelativeLayout>

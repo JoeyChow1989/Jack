@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/fanwei_10_dp"
+    tools:context="com.fanwei.sdk.activity.activity.view.CustomerDialogBuilder" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/fanwei_bg_bombbox"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/fan_sms_title_text_style"
+            android:layout_marginBottom="@dimen/fanwei_10_dp"
+            android:text="@string/fanwei_hint_sms_code" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+
+        <TextView
+            android:id="@+id/fan_dialog_money"
+            style="@style/fan_sms_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingBottom="@dimen/fanwei_15_dp"
+            android:paddingLeft="@dimen/fanwei_10_dp"
+            android:paddingRight="@dimen/fanwei_20_dp"
+            android:paddingTop="@dimen/fanwei_10_dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/fan_dialog_bank"
+                style="@style/fan_sms_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10.0"
+                android:paddingBottom="@dimen/fanwei_15_dp"
+                android:paddingLeft="@dimen/fanwei_10_dp"
+                android:paddingRight="@dimen/fanwei_20_dp"
+                android:paddingTop="@dimen/fanwei_10_dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="@dimen/fanwei_10_dp"
+                android:layout_weight="1.0"
+                android:contentDescription="@null"
+                android:src="@drawable/fanwei_right" >
+            </ImageView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fanwei_50_dp"
+            android:background="@drawable/bg_edittext_normal"
+            android:orientation="horizontal" >
+
+            <include
+                android:layout_width="20.0px"
+                android:layout_height="match_parent"
+                layout="@layout/fan_space_view_layout" />
+
+            <EditText
+                android:id="@+id/fan_dialog_message"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/bg_edittext_normal"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="@string/fanwei_hint_sms_code"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_15_size" />
+
+            <Button
+                android:id="@+id/fan_dialog_message_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/fanwei_10_dp"
+                android:layout_marginTop="@dimen/fanwei_15_dp"
+                android:layout_weight="1.0"
+                android:background="@color/fanwei_color_touming"
+                android:gravity="right"
+                android:text="@string/fanwei_sms_text"
+                android:textColor="@color/fanwei_color_shenhui"
+                android:textSize="@dimen/text_15_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fanwei_60_dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/fanwei_5_dp"
+            android:layout_marginTop="@dimen/fanwei_10_dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/fan_positiveButton"
+                style="@style/fan_text_15_style"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/fanwei_50_dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_ok_selector"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/fan_negativeButton"
+                style="@style/fan_text_15_style"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/fanwei_50_dp"
+                android:layout_marginLeft="@dimen/fanwei_10_dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_cancel_selector"
+                android:text="@string/payment" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

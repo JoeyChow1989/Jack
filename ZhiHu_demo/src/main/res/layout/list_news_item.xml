@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/listBackgroundValue" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/normal"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/normal" 
+        >
+
+        <TextView
+            android:id="@+id/newsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="新闻故事标题"
+            android:textSize="15sp"
+            android:textColor="?attr/textColorValue"
+            android:layout_marginRight="@dimen/normal"
+            android:layout_toLeftOf="@+id/newsImage" />
+
+        <ImageView
+            android:id="@+id/newsImage"
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/push_icon"/>
+    </RelativeLayout>
+
+</LinearLayout>

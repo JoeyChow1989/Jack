@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/TextColorWhite"
+    android:orientation="vertical"
+    tools:context=".YeepayBankList" >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/fanwei_50_dp"
+        android:background="@color/fanwei_color_anshibanhui"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/TitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/fanwei_bank_card_pay"
+            android:textColor="@color/TextColorWhite"
+            android:textSize="@dimen/text_18_size" />
+
+        <ImageView
+            android:id="@+id/fanwei_title_btn_back"
+            style="@style/TitleTextStyle"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/fanwei_15_dp"
+            android:background="@drawable/fanwei_back_top_imag"
+            android:contentDescription="@null"
+            android:textColor="@color/TextColorWhite"
+            android:textSize="@dimen/text_18_size" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/fan_yeepay_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_layout"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/text_22_size" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fan_yeepay_list"
+        android:background="@color/TextColorWhite" >
+
+        <View
+            android:id="@+id/fanwei_bank_line"
+            style="@style/GuidanceLineStyle"
+            android:layout_width="fill_parent"
+            android:layout_below="@id/fan_bank_item_tag" />
+
+        <RelativeLayout
+            android:id="@+id/fan_add_bank_tag"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fanwei_60_dp"
+            android:layout_below="@id/fanwei_bank_line"
+            android:background="@drawable/fanwei_pay_btn_selector" >
+
+            <TextView
+                android:id="@+id/fan_add_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fanwei_15_dp"
+                android:layout_marginTop="@dimen/fanwei_15_dp"
+                android:gravity="left"
+                android:text="@string/fanwei_add_bank"
+                android:textColor="@color/fanwei_color_lanse"
+                android:textSize="@dimen/text_18_size" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/fanwei_15_dp"
+                android:layout_marginTop="@dimen/fanwei_25_dp"
+                android:contentDescription="@null"
+                android:src="@drawable/fanwei_right" />
+        </RelativeLayout>
+
+        <View
+            style="@style/GuidanceLineStyle"
+            android:layout_width="fill_parent"
+            android:layout_below="@id/fan_add_bank_tag" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/fanwei_10_dp"
+        android:text="该服务由聚宝支付提供"
+        android:textColor="@color/fanwei_color_shenhui"
+        android:textSize="@dimen/text_12_size" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="payfor_1">1</string>
+    <string name="payfor_2">2</string>
+    <string name="payfor_4">4</string>
+    <string name="payfor_6">6</string>
+    <string name="payfor_8">8</string>
+    <string name="payfor_10">10</string>
+    <string name="payfor_0.02">0.02</string>
+    <string name="payfor_9">200</string>
+    <string name="payfor_501">501</string>
+    <string name="app_name">凡伟SDK demo</string>
+
+</resources>

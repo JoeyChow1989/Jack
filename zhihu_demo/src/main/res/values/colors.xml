@@ -3,4 +3,18 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="blue">#3f3F9F</color>
+
+    <color name="black">#000000</color>
+
+    <color name="lighterBlack">#454545</color>
+
+    <color name="deepBlack">#252525</color>
+
+    <color name="gray">#a1a1a1</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="deepblue">#1e3145</color>
 </resources>

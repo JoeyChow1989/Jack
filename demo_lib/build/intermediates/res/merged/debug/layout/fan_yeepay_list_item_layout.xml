@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/TextColorWhite" >
+
+    <RelativeLayout
+        android:id="@+id/fan_bank_item_tag"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fanwei_60_dp"
+        android:background="@drawable/fanwei_pay_btn_selector"
+        android:paddingTop="@dimen/fanwei_10_dp" >
+
+        <LinearLayout
+            android:id="@+id/fanwei_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fanwei_15_dp"
+            android:layout_marginTop="@dimen/fanwei_8_dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/fan_yeepay_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fanwei_bank_card"
+                android:textColor="@color/fanwei_color_banhui"
+                android:textSize="@dimen/text_18_size" />
+
+            <TextView
+                android:id="@+id/fan_yeepay_bank_tail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fanwei_5_dp"
+                android:text="@string/fanwei_last_number"
+                android:textColor="@color/fanwei_color_shenhui"
+                android:textSize="@dimen/text_18_size" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/fan_click_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/fanwei_10_dp"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+</RelativeLayout>
