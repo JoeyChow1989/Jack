@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_yeepay_list_item_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_yeepay_list_item_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\title.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\title.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\alipay.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\alipay.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\product_item.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\product_item.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_dialog_normal_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_dialog_normal_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_yb_web_wiew.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_yb_web_wiew.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_alert.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\dialog_alert.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_space_view_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_space_view_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_bank_card_title.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_bank_card_title.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fanwei_view_custom.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fanwei_view_custom.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\main_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\res\\layout\\main_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_yeepay_listview_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_yeepay_listview_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_horizontal_pay_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_horizontal_pay_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_horizontal_grid_view_item.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_horizontal_grid_view_item.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_yeepay_listview_horizontal_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_yeepay_listview_horizontal_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_pay_failure_horizontal_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_pay_failure_horizontal_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_pay_failure_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_pay_failure_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_dialog_view.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_dialog_view.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\alipay_title.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\alipay_title.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_horizontal_deposit_grid_view_item.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_horizontal_deposit_grid_view_item.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_pay.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_pay.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_pay_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_pay_layout.xml"
+    }
+]

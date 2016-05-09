@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lt.titlebar.Titlebar xmlns:android="http://schemas.android.com/apk/res/android"
+                          xmlns:lt="http://schemas.android.com/apk/res-auto"
+                          android:id="@+id/titlebar"
+                          android:layout_width="match_parent"
+                          android:layout_height="60dp"
+                          lt:leftButtonText="返回"
+                          lt:leftButtonTextColor="@android:color/white"
+                          lt:leftButtonTextSize="8sp"
+                          lt:titleText="标题"
+                          lt:titleColor="@android:color/white"
+                          lt:titleSize="8sp"
+                          lt:rightButtonText="完成"
+                          lt:rightButtonTextColor="@android:color/white"
+                          lt:rightButtonTextSize="8sp"
+                          android:background="#ea8010"
+                          android:padding="10sp"
+                          >
+
+</com.lt.titlebar.Titlebar>

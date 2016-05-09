@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 支付宝 -->
+    <color name="text_color">#ff666666</color>
+    <color name="TextColorBlack">#FF000000</color>
+    <color name="fanwei_color_000000">#000000</color>
+    <color name="TextColorWhite">#FFFFFFFF</color>
+    <color name="BgColor">#ffd1dce9</color>
+    <color name="TextColorGray">#FF505050</color>
+    <color name="ToastBgColor">#FF424242</color>
+    <color name="btnColor">#FFFFFF</color>
+    <color name="textColorforItemTitle">#FF666666</color>
+    <color name="secondbtntextColor">#FF496ea3</color>
+    <color name="textColorforCheckBox">#FF333333</color>
+    <color name="bgColor">#FFF2F2F2</color>
+    <color name="downLoadTextNomal">#FF3366CC</color>
+    <color name="downLoadTextPressed">#FFFFFFFF</color>
+    <color name="downLoadBackNomal">#FFFFFFFF</color>
+    <color name="downLoadBackFocus">#FF6698E7</color>
+    <color name="downLoadBackPressed">#FF3366CC</color>
+    <color name="dialog_tiltle_blue">#2277BB</color>
+    <color name="background_color">#ffd1dce9</color>
+    <!-- 凡伟 -->
+    <color name="fanwei_color_fenhong">#ffd0d6d9</color>
+    <color name="fanwei_color_anshibanhui">#303030</color>
+    <color name="fanwei_color_chenghong">#Fe5400</color>
+    <color name="fanwei_color_shenhui">#999999</color>
+    <color name="fanwei_color_huibai">#F6F6F6</color>
+    <color name="fanwei_color_banhui">#3F3F3F</color>
+    <color name="fanwei_color_qianhui">#B9AB91</color>
+    <color name="fanwei_color_lanse">#0090FF</color>
+    <color name="fanwei_color_danhui">#ffe7e7e7</color>
+    <color name="fanwei_color_touming">#00000000</color>
+    <color name="fanwei_color_lvse">#339900</color>
+    <color name="fanwei_color_qianlv">#33CC33</color>
+    <color name="fanwei_color_hongse">#FF0000</color>
+    <color name="fanwei_color_red">#cc2c2c</color>
+
+</resources>

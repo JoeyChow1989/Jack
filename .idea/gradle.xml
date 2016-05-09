@@ -45,6 +45,7 @@
             <option value="$PROJECT_DIR$/imooc_festival_sms" />
             <option value="$PROJECT_DIR$/titlebar" />
             <option value="$PROJECT_DIR$/vitamio" />
+            <option value="$PROJECT_DIR$/zhihu_demo" />
           </set>
         </option>
         <option name="myModules">
@@ -85,6 +86,7 @@
             <option value="$PROJECT_DIR$/imooc_festival_sms" />
             <option value="$PROJECT_DIR$/titlebar" />
             <option value="$PROJECT_DIR$/vitamio" />
+            <option value="$PROJECT_DIR$/zhihu_demo" />
           </set>
         </option>
       </GradleProjectSettings>

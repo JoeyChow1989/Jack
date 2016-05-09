@@ -108,6 +108,9 @@ public class MyAdapter extends BaseAdapter {
         mImageLoader.get(list.get(position).url, mImageListener);
         holder.textView.setText(list.get(position).name);
 
+
+
+
         return convertView;
     }
 

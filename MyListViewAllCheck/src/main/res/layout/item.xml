@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <CheckBox
+            android:id="@+id/ischecked"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+            />
+
+        <TextView
+            android:id="@+id/item_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:textSize="20sp"
+            android:paddingLeft="10dp"
+            android:text="内容"
+            />
+
+        <ImageButton
+            android:id="@+id/item_img"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+            android:src="@mipmap/ic_launcher"
+            />
+    </LinearLayout>
+
+</LinearLayout>

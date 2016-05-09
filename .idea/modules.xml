@@ -38,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/imooc_festival_sms/imooc_festival_sms.iml" filepath="$PROJECT_DIR$/imooc_festival_sms/imooc_festival_sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/titlebar/titlebar.iml" filepath="$PROJECT_DIR$/titlebar/titlebar.iml" />
       <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhihu_demo/zhihu_demo.iml" filepath="$PROJECT_DIR$/zhihu_demo/zhihu_demo.iml" />
     </modules>
   </component>
 </project>

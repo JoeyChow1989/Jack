@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\fanwei_small_icon.png",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-mdpi-v4\\fanwei_small_icon.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\fan_ic_launcher.png",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\res\\drawable-mdpi\\fan_ic_launcher.png"
+    }
+]

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PictureDrawable3D</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_label_inflate_xml">XML Inflate Example</string>
+    <string name="activity_label_simple">Simple Example</string>
+    <string name="activity_label_viewgroup">ViewGroup Example</string>
+    <string name="activity_label_viewgroupreflection">ViewGroup with Reflection</string>
+</resources>

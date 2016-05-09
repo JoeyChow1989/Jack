@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Titlebar">
+        <attr name="leftButtonText" format="string|reference"></attr>
+        <attr name="leftButtonTextColor" format="color|reference"></attr>
+        <attr name="leftButtonTextSize" format="dimension|reference"></attr>
+        <attr name="leftButtonImage" format="color|reference"></attr>
+
+        <attr name="titleText" format="string|reference"></attr>
+        <attr name="titleColor" format="color|reference"></attr>
+        <attr name="titleSize" format="dimension|reference"></attr>
+
+        <attr name="rightButtonText" format="string|reference"></attr>
+        <attr name="rightButtonTextColor" format="color|reference"></attr>
+        <attr name="rightButtonTextSize" format="dimension|reference"></attr>
+        <attr name="rightButtonImage" format="color|reference"></attr>
+
+    </declare-styleable>
+</resources>
