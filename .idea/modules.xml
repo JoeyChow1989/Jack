@@ -36,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/groovyModel/groovyModel.iml" filepath="$PROJECT_DIR$/groovyModel/groovyModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/imoocTreeView/imoocTreeView.iml" filepath="$PROJECT_DIR$/imoocTreeView/imoocTreeView.iml" />
       <module fileurl="file://$PROJECT_DIR$/imooc_festival_sms/imooc_festival_sms.iml" filepath="$PROJECT_DIR$/imooc_festival_sms/imooc_festival_sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/material-notes/material-notes.iml" filepath="$PROJECT_DIR$/material-notes/material-notes.iml" />
       <module fileurl="file://$PROJECT_DIR$/titlebar/titlebar.iml" filepath="$PROJECT_DIR$/titlebar/titlebar.iml" />
       <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />
     </modules>

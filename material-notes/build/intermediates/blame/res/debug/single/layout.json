@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\notes_row.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\src\\main\\res\\layout\\notes_row.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_note.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\src\\main\\res\\layout\\activity_view_note.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_about_notice.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\src\\main\\res\\layout\\dialog_about_notice.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_note.xml",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\src\\main\\res\\layout\\activity_edit_note.xml"
+    }
+]
