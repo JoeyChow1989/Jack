@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PullToRefreshAndLoadMore</string>
+    <string name="has_no_data">没有内容，刷新一下吧~</string>
+</resources>

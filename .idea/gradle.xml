@@ -12,6 +12,8 @@
             <option value="$PROJECT_DIR$/AutoLayout_demo" />
             <option value="$PROJECT_DIR$/BasePopup-master" />
             <option value="$PROJECT_DIR$/FanWei_SDK_lib" />
+            <option value="$PROJECT_DIR$/GalleryFinal-master" />
+            <option value="$PROJECT_DIR$/Girls-master" />
             <option value="$PROJECT_DIR$/HotfixDemo_01" />
             <option value="$PROJECT_DIR$/ImageChoose_WeiXin" />
             <option value="$PROJECT_DIR$/ImageryHeader-master" />
@@ -26,7 +28,9 @@
             <option value="$PROJECT_DIR$/MyRecyclerViewDemo" />
             <option value="$PROJECT_DIR$/MyTaoBaoTest" />
             <option value="$PROJECT_DIR$/Phoenix-master" />
+            <option value="$PROJECT_DIR$/PickerView-master" />
             <option value="$PROJECT_DIR$/PictureDrawable3D" />
+            <option value="$PROJECT_DIR$/PullToRefresh" />
             <option value="$PROJECT_DIR$/RefreshDemo-master" />
             <option value="$PROJECT_DIR$/SoundRecorder-master" />
             <option value="$PROJECT_DIR$/TestActivitylifecycleCallbacks" />
@@ -42,11 +46,13 @@
             <option value="$PROJECT_DIR$/autolayout" />
             <option value="$PROJECT_DIR$/demo_lib" />
             <option value="$PROJECT_DIR$/eventbus_demo" />
+            <option value="$PROJECT_DIR$/galleryfinal" />
             <option value="$PROJECT_DIR$/groovyModel" />
             <option value="$PROJECT_DIR$/imoocTreeView" />
             <option value="$PROJECT_DIR$/imooc_festival_sms" />
             <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/material-notes" />
+            <option value="$PROJECT_DIR$/sample" />
             <option value="$PROJECT_DIR$/titlebar" />
             <option value="$PROJECT_DIR$/vitamio" />
           </set>
@@ -57,6 +63,8 @@
             <option value="$PROJECT_DIR$/AutoLayout_demo" />
             <option value="$PROJECT_DIR$/BasePopup-master" />
             <option value="$PROJECT_DIR$/FanWei_SDK_lib" />
+            <option value="$PROJECT_DIR$/GalleryFinal-master" />
+            <option value="$PROJECT_DIR$/Girls-master" />
             <option value="$PROJECT_DIR$/HotfixDemo_01" />
             <option value="$PROJECT_DIR$/ImageChoose_WeiXin" />
             <option value="$PROJECT_DIR$/ImageryHeader-master" />
@@ -71,7 +79,9 @@
             <option value="$PROJECT_DIR$/MyRecyclerViewDemo" />
             <option value="$PROJECT_DIR$/MyTaoBaoTest" />
             <option value="$PROJECT_DIR$/Phoenix-master" />
+            <option value="$PROJECT_DIR$/PickerView-master" />
             <option value="$PROJECT_DIR$/PictureDrawable3D" />
+            <option value="$PROJECT_DIR$/PullToRefresh" />
             <option value="$PROJECT_DIR$/RefreshDemo-master" />
             <option value="$PROJECT_DIR$/SoundRecorder-master" />
             <option value="$PROJECT_DIR$/TestActivitylifecycleCallbacks" />
@@ -87,11 +97,13 @@
             <option value="$PROJECT_DIR$/autolayout" />
             <option value="$PROJECT_DIR$/demo_lib" />
             <option value="$PROJECT_DIR$/eventbus_demo" />
+            <option value="$PROJECT_DIR$/galleryfinal" />
             <option value="$PROJECT_DIR$/groovyModel" />
             <option value="$PROJECT_DIR$/imoocTreeView" />
             <option value="$PROJECT_DIR$/imooc_festival_sms" />
             <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/material-notes" />
+            <option value="$PROJECT_DIR$/sample" />
             <option value="$PROJECT_DIR$/titlebar" />
             <option value="$PROJECT_DIR$/vitamio" />
           </set>
