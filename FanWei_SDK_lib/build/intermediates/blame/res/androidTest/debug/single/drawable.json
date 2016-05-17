@@ -20,12 +20,12 @@
         "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\tab_3.9.png"
     },
     {
-        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\title_logo.png",
-        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\title_logo.png"
-    },
-    {
         "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_close_pressed.png",
         "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_close_pressed.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\title_logo.png",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\title_logo.png"
     },
     {
         "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_close_normal.png",

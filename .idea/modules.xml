@@ -7,9 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/FanWei_SDK_lib/FanWei_SDK_lib.iml" filepath="$PROJECT_DIR$/FanWei_SDK_lib/FanWei_SDK_lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/HotfixDemo_01/HotfixDemo_01.iml" filepath="$PROJECT_DIR$/HotfixDemo_01/HotfixDemo_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImageChoose_WeiXin/ImageChoose_WeiXin.iml" filepath="$PROJECT_DIR$/ImageChoose_WeiXin/ImageChoose_WeiXin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Inddicator/Inddicator.iml" filepath="$PROJECT_DIR$/Inddicator/Inddicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageryHeader-master/ImageryHeader-master.iml" filepath="$PROJECT_DIR$/ImageryHeader-master/ImageryHeader-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/IndicatorBar_demo/IndicatorBar_demo.iml" filepath="$PROJECT_DIR$/IndicatorBar_demo/IndicatorBar_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JDAdverNotice/JDAdverNotice.iml" filepath="$PROJECT_DIR$/JDAdverNotice/JDAdverNotice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Jack.iml" filepath="$PROJECT_DIR$/Jack.iml" />
       <module fileurl="file://$PROJECT_DIR$/JsDemo/JsDemo.iml" filepath="$PROJECT_DIR$/JsDemo/JsDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyArcMenu/MyArcMenu.iml" filepath="$PROJECT_DIR$/MyArcMenu/MyArcMenu.iml" />
@@ -18,8 +17,10 @@
       <module fileurl="file://$PROJECT_DIR$/MyMatrixImageDemo/MyMatrixImageDemo.iml" filepath="$PROJECT_DIR$/MyMatrixImageDemo/MyMatrixImageDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyRecyclerViewDemo/MyRecyclerViewDemo.iml" filepath="$PROJECT_DIR$/MyRecyclerViewDemo/MyRecyclerViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyTaoBaoTest/MyTaoBaoTest.iml" filepath="$PROJECT_DIR$/MyTaoBaoTest/MyTaoBaoTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Phoenix-master/Phoenix-master.iml" filepath="$PROJECT_DIR$/Phoenix-master/Phoenix-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/PictureDrawable3D/PictureDrawable3D.iml" filepath="$PROJECT_DIR$/PictureDrawable3D/PictureDrawable3D.iml" />
       <module fileurl="file://$PROJECT_DIR$/RefreshDemo-master/RefreshDemo-master.iml" filepath="$PROJECT_DIR$/RefreshDemo-master/RefreshDemo-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoundRecorder-master/SoundRecorder-master.iml" filepath="$PROJECT_DIR$/SoundRecorder-master/SoundRecorder-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestActivitylifecycleCallbacks/TestActivitylifecycleCallbacks.iml" filepath="$PROJECT_DIR$/TestActivitylifecycleCallbacks/TestActivitylifecycleCallbacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestSwitcherDemo/TestSwitcherDemo.iml" filepath="$PROJECT_DIR$/TestSwitcherDemo/TestSwitcherDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToolBarDemo/ToolBarDemo.iml" filepath="$PROJECT_DIR$/ToolBarDemo/ToolBarDemo.iml" />
@@ -36,6 +37,7 @@
       <module fileurl="file://$PROJECT_DIR$/groovyModel/groovyModel.iml" filepath="$PROJECT_DIR$/groovyModel/groovyModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/imoocTreeView/imoocTreeView.iml" filepath="$PROJECT_DIR$/imoocTreeView/imoocTreeView.iml" />
       <module fileurl="file://$PROJECT_DIR$/imooc_festival_sms/imooc_festival_sms.iml" filepath="$PROJECT_DIR$/imooc_festival_sms/imooc_festival_sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/material-notes/material-notes.iml" filepath="$PROJECT_DIR$/material-notes/material-notes.iml" />
       <module fileurl="file://$PROJECT_DIR$/titlebar/titlebar.iml" filepath="$PROJECT_DIR$/titlebar/titlebar.iml" />
       <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />

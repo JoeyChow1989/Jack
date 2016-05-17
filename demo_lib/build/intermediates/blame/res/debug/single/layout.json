@@ -16,12 +16,12 @@
         "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\product_item.xml"
     },
     {
-        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_alert.xml",
-        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\dialog_alert.xml"
-    },
-    {
         "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_yb_web_wiew.xml",
         "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\fan_yb_web_wiew.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_alert.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\layout\\dialog_alert.xml"
     },
     {
         "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\layout\\fan_space_view_layout.xml",

@@ -6,7 +6,6 @@
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="G:\studio\gradle\gradle-2.10" />
-        <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -15,9 +14,8 @@
             <option value="$PROJECT_DIR$/FanWei_SDK_lib" />
             <option value="$PROJECT_DIR$/HotfixDemo_01" />
             <option value="$PROJECT_DIR$/ImageChoose_WeiXin" />
-            <option value="$PROJECT_DIR$/Inddicator" />
+            <option value="$PROJECT_DIR$/ImageryHeader-master" />
             <option value="$PROJECT_DIR$/IndicatorBar_demo" />
-            <option value="$PROJECT_DIR$/JDAdverNotice" />
             <option value="$PROJECT_DIR$/JsDemo" />
             <option value="$PROJECT_DIR$/MyArcMenu" />
             <option value="$PROJECT_DIR$/MyDemo" />
@@ -25,8 +23,10 @@
             <option value="$PROJECT_DIR$/MyMatrixImageDemo" />
             <option value="$PROJECT_DIR$/MyRecyclerViewDemo" />
             <option value="$PROJECT_DIR$/MyTaoBaoTest" />
+            <option value="$PROJECT_DIR$/Phoenix-master" />
             <option value="$PROJECT_DIR$/PictureDrawable3D" />
             <option value="$PROJECT_DIR$/RefreshDemo-master" />
+            <option value="$PROJECT_DIR$/SoundRecorder-master" />
             <option value="$PROJECT_DIR$/TestActivitylifecycleCallbacks" />
             <option value="$PROJECT_DIR$/TestSwitcherDemo" />
             <option value="$PROJECT_DIR$/ToolBarDemo" />
@@ -43,6 +43,7 @@
             <option value="$PROJECT_DIR$/groovyModel" />
             <option value="$PROJECT_DIR$/imoocTreeView" />
             <option value="$PROJECT_DIR$/imooc_festival_sms" />
+            <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/material-notes" />
             <option value="$PROJECT_DIR$/titlebar" />
             <option value="$PROJECT_DIR$/vitamio" />
@@ -56,9 +57,8 @@
             <option value="$PROJECT_DIR$/FanWei_SDK_lib" />
             <option value="$PROJECT_DIR$/HotfixDemo_01" />
             <option value="$PROJECT_DIR$/ImageChoose_WeiXin" />
-            <option value="$PROJECT_DIR$/Inddicator" />
+            <option value="$PROJECT_DIR$/ImageryHeader-master" />
             <option value="$PROJECT_DIR$/IndicatorBar_demo" />
-            <option value="$PROJECT_DIR$/JDAdverNotice" />
             <option value="$PROJECT_DIR$/JsDemo" />
             <option value="$PROJECT_DIR$/MyArcMenu" />
             <option value="$PROJECT_DIR$/MyDemo" />
@@ -66,8 +66,10 @@
             <option value="$PROJECT_DIR$/MyMatrixImageDemo" />
             <option value="$PROJECT_DIR$/MyRecyclerViewDemo" />
             <option value="$PROJECT_DIR$/MyTaoBaoTest" />
+            <option value="$PROJECT_DIR$/Phoenix-master" />
             <option value="$PROJECT_DIR$/PictureDrawable3D" />
             <option value="$PROJECT_DIR$/RefreshDemo-master" />
+            <option value="$PROJECT_DIR$/SoundRecorder-master" />
             <option value="$PROJECT_DIR$/TestActivitylifecycleCallbacks" />
             <option value="$PROJECT_DIR$/TestSwitcherDemo" />
             <option value="$PROJECT_DIR$/ToolBarDemo" />
@@ -84,6 +86,7 @@
             <option value="$PROJECT_DIR$/groovyModel" />
             <option value="$PROJECT_DIR$/imoocTreeView" />
             <option value="$PROJECT_DIR$/imooc_festival_sms" />
+            <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/material-notes" />
             <option value="$PROJECT_DIR$/titlebar" />
             <option value="$PROJECT_DIR$/vitamio" />
