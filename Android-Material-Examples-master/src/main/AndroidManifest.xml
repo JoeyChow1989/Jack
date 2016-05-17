@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saulmm.material" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Android-Material-Examples-master"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name="com.saulmm.material.activities.TransitionFirstActivity"
+            android:theme="@style/TransitionSampleActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.saulmm.material.activities.TransitionSecondActivity"
+            android:theme="@style/TransitionSampleSecondActivity"/>
+
+        <activity android:name="com.saulmm.material.activities.SlidingActivity" >
+        </activity>
+        <activity
+            android:name="com.saulmm.material.activities.DialerSampleActivity"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:name="com.saulmm.material.activities.ColorActivity"
+            android:label="@string/title_activity_color" />
+        <activity
+            android:name="com.saulmm.material.activities.ElevationSampleActivity"
+            android:label="@string/title_activity_elevation_sample" >
+
+
+        </activity>
+    </application>
+
+</manifest>
