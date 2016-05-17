@@ -49,8 +49,6 @@ public class TypeImageActivity extends AppCompatActivity implements SwipeRefresh
 
     private void initView() {
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
-
-
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.sw_layout);
         mRecyclerView = (RecyclerView) findViewById(R.id.receiverview);
         mSwipeRefreshLayout.setColorSchemeResources(R.color.colorPrimary);
@@ -68,11 +66,8 @@ public class TypeImageActivity extends AppCompatActivity implements SwipeRefresh
         mTitle = getIntent().getStringExtra("title");
         //设置ToolBar tit了 必须放在    getSupportActionBar().setDisplayHomeAsUpEnabled(true);之前 不然没有效果
         if (!mTitle.isEmpty()) {
-
             mToolbar.setTitle(mTitle);
         }
-
-
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

@@ -1,6 +1,4 @@
 package huti.material;
-
-
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -17,8 +15,6 @@ import android.widget.Toast;
 import SlidingTabs.SlidingTabLayout;
 import SlidingTabs.SlidingTabAdapter;
 
-
-
 public class MainActivity extends ActionBarActivity {
 
     ActionBarDrawerToggle mDrawerToggle;
@@ -26,19 +22,15 @@ public class MainActivity extends ActionBarActivity {
     SlidingTabLayout mSlidingTabLayout;
     ViewPager mViewPager;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         this.initLayout();
         this.bindTabEvents();
         this.bindNavDrawerEvents();
-
         this.addContent();
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -158,7 +150,6 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
 
-                // close drawer if you want
                 /*if (mDrawerLayout.isDrawerOpen(Gravity.START | Gravity.LEFT)) {
                     mDrawerLayout.closeDrawers();
                 }*/

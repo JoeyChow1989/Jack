@@ -53,7 +53,6 @@ public class MainActivity extends BeamBaseActivity<MainPresenter>
 
     public class MainPagerAdapter extends FragmentStatePagerAdapter
     {
-
         public MainPagerAdapter(FragmentManager fm)
         {
             super(fm);

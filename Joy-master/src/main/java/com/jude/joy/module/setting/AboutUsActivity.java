@@ -28,7 +28,4 @@ public class AboutUsActivity extends BeamBaseActivity<AboutUsPresenter> {
         ButterKnife.bind(this);
         version.setText("v"+ JUtils.getAppVersionName());
     }
-
-
-
 }
