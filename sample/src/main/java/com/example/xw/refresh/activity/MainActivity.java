@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity implements
             public void run() {
                 mStrings.add("refresh item " + mStrings.size());
                 mStrings.add("refresh item " + (mStrings.size()));
-
                 mRefreshLayout.refreshFinish(true);
                 updateListData();
             }
@@ -90,7 +89,6 @@ public class MainActivity extends AppCompatActivity implements
             if (mStrings != null) {
                 mStrings.clear();
                 updateListData();
-
                 return true;
             }
         }

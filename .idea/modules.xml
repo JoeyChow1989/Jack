@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android-Material-Examples-master/Android-Material-Examples-master.iml" filepath="$PROJECT_DIR$/Android-Material-Examples-master/Android-Material-Examples-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidL_MaterialDesgin_Demo/AndroidL_MaterialDesgin_Demo.iml" filepath="$PROJECT_DIR$/AndroidL_MaterialDesgin_Demo/AndroidL_MaterialDesgin_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidL_RecyclerView_CardView_Demo/AndroidL_RecyclerView_CardView_Demo.iml" filepath="$PROJECT_DIR$/AndroidL_RecyclerView_CardView_Demo/AndroidL_RecyclerView_CardView_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/AutoLayout_demo/AutoLayout_demo.iml" filepath="$PROJECT_DIR$/AutoLayout_demo/AutoLayout_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/BasePopup-master/BasePopup-master.iml" filepath="$PROJECT_DIR$/BasePopup-master/BasePopup-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/DragRecyclerView/DragRecyclerView.iml" filepath="$PROJECT_DIR$/DragRecyclerView/DragRecyclerView.iml" />
