@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="outsideOverlay">
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+        android:padding="8dp">
+	            
+	    <com.rey.material.widget.TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Circular"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="16dp"
+	        android:orientation="horizontal"
+	        android:weightSum="2.0"
+	        android:baselineAligned="false">
+	        
+	        <FrameLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1.0">
+	            
+	            <com.rey.material.widget.ProgressView
+	                android:id="@+id/progress_pv_circular"
+			        android:layout_width="32dp"
+			        android:layout_height="32dp"
+			        android:layout_gravity="center"
+                    style="@style/LightCircularProgressView"/>
+	            
+	        </FrameLayout>
+	        
+	        
+	        <FrameLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1.0">
+	            
+	            <com.rey.material.widget.ProgressView
+	                android:id="@+id/progress_pv_circular_colors"
+			        android:layout_width="32dp"
+			        android:layout_height="32dp"
+			        android:layout_gravity="center"
+					style="@style/LightColorCircularProgressView"/>
+	            
+	        </FrameLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="16dp"
+	        android:orientation="horizontal"
+	        android:weightSum="2.0"
+	        android:baselineAligned="false">
+	        
+	        <FrameLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1.0">
+	            
+	            <com.rey.material.widget.ProgressView
+	                android:id="@+id/progress_pv_circular_inout"
+			        android:layout_width="32dp"
+			        android:layout_height="32dp"
+			        android:layout_gravity="center"
+                    style="@style/LightInCircularProgressView"/>
+	            
+	        </FrameLayout>
+	        
+	        
+	        <FrameLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1.0">
+	            
+	            <com.rey.material.widget.ProgressView
+	                android:id="@+id/progress_pv_circular_inout_colors"
+			        android:layout_width="32dp"
+			        android:layout_height="32dp"
+			        android:layout_gravity="center"
+					style="@style/LightInColorCircularProgressView"/>
+	            
+	        </FrameLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="16dp"
+	        android:orientation="horizontal"
+	        android:weightSum="2.0"
+	        android:baselineAligned="false">
+	        
+	        <FrameLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1.0">
+	            
+	            <com.rey.material.widget.ProgressView
+	                android:id="@+id/progress_pv_circular_determinate_in_out"
+			        android:layout_width="32dp"
+			        android:layout_height="32dp"
+			        android:layout_gravity="center"
+                    style="@style/LightDeterminateCircularProgressView"/>
+	            
+	        </FrameLayout>
+	        
+	        <FrameLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1.0">
+	            
+	            <com.rey.material.widget.ProgressView
+	                android:id="@+id/progress_pv_circular_determinate"
+			        android:layout_width="32dp"
+			        android:layout_height="32dp"
+			        android:layout_gravity="center"
+					style="@style/LightDeterminateInCircularProgressView"/>
+	            
+	        </FrameLayout>
+	        	        
+	    </LinearLayout>
+
+	    <com.rey.material.widget.TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Linear"/>
+
+	    <FrameLayout
+	    	android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="16dp">
+
+	        <com.rey.material.widget.ProgressView
+	        	android:id="@+id/progress_pv_linear"
+			    android:layout_width="match_parent"
+			    android:layout_height="4dp"
+			    android:layout_gravity="center"
+				style="@style/LightLinearProgressView"/>
+
+	    </FrameLayout>
+
+	    <FrameLayout
+	    	android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="16dp">
+
+	        <com.rey.material.widget.ProgressView
+	        	android:id="@+id/progress_pv_linear_colors"
+			    android:layout_width="match_parent"
+			    android:layout_height="4dp"
+			    android:layout_gravity="center"
+				style="@style/LightColorLinearProgressView"/>
+
+	    </FrameLayout>
+
+	    <FrameLayout
+	    	android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="16dp">
+
+	        <com.rey.material.widget.ProgressView
+	        	android:id="@+id/progress_pv_linear_determinate"
+			    android:layout_width="match_parent"
+			    android:layout_height="4dp"
+			    android:layout_gravity="center"
+				style="@style/LightDeterminateLinearProgressView"/>
+
+	    </FrameLayout>
+
+	    <FrameLayout
+	    	android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="16dp">
+
+	        <com.rey.material.widget.ProgressView
+	        	android:id="@+id/progress_pv_linear_query"
+			    android:layout_width="match_parent"
+			    android:layout_height="4dp"
+			    android:layout_gravity="center"
+				style="@style/LightQueryLinearProgressView"/>
+
+	    </FrameLayout>
+
+	    <FrameLayout
+	    	android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="16dp">
+
+	        <com.rey.material.widget.ProgressView
+	        	android:id="@+id/progress_pv_linear_buffer"
+			    android:layout_width="match_parent"
+			    android:layout_height="4dp"
+			    android:layout_gravity="center"
+				style="@style/LightBufferLinearProgressView"/>
+
+	    </FrameLayout>
+
+	</LinearLayout>
+	    
+    
+</ScrollView>
+

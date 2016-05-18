@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/background_material_light"
+    android:layout_height="match_parent">
+
+    <com.rey.material.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:text="Bottom Sheet"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <com.rey.material.widget.Button
+            android:id="@+id/sheet_bt_match"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bt_height"
+            android:layout_weight="0.4"
+            android:text="more"
+            style="@style/LightRaiseColorButtonRippleStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

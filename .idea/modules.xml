@@ -40,6 +40,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/autolayout/autolayout.iml" filepath="$PROJECT_DIR$/autolayout/autolayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_lib/demo_lib.iml" filepath="$PROJECT_DIR$/demo_lib/demo_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_reg5137/design_reg5137.iml" filepath="$PROJECT_DIR$/design_reg5137/design_reg5137.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventbus_demo/eventbus_demo.iml" filepath="$PROJECT_DIR$/eventbus_demo/eventbus_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/galleryfinal/galleryfinal.iml" filepath="$PROJECT_DIR$/galleryfinal/galleryfinal.iml" />
       <module fileurl="file://$PROJECT_DIR$/groovyModel/groovyModel.iml" filepath="$PROJECT_DIR$/groovyModel/groovyModel.iml" />

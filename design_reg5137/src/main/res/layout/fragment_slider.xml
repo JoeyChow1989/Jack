@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="outsideOverlay">
+    
+    <LinearLayout    
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="center"
+        android:padding="8dp">
+	                    
+	    <com.rey.material.widget.TextView
+			android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:text="Continuous"/>
+	    
+	    <com.rey.material.widget.Slider
+            android:id="@+id/slider_sl_continuous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            app:sl_value="50"
+            style="@style/LightSlider"/>
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/slider_tv_continuous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <com.rey.material.widget.Slider
+            android:id="@+id/slider_sl_continuous_disable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:enabled="false"
+            style="@style/LightSlider"/>
+
+        <com.rey.material.widget.TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discrete"/>
+
+        <com.rey.material.widget.Slider
+            android:id="@+id/slider_sl_discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            app:sl_value="50"
+            style="@style/LightSliderDiscrete"/>
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/slider_tv_discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <com.rey.material.widget.Slider
+            android:id="@+id/slider_sl_discrete_disable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:enabled="false"
+            app:sl_value="50"
+            style="@style/LightSliderDiscrete"/>
+	    
+	</LinearLayout>
+    
+    
+</ScrollView>
+    

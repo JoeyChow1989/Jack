@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import com.imooc.www.recycler.R;
 import com.imooc.www.recycler.adapter.MyAdapter;
+import com.imooc.www.recycler.util.DividerItemDecoration;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         //给增加和删除添加Item动画
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
 
+
         mAdapter.setOnItemClickListener(new MyAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
@@ -56,9 +58,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //设置RecyclerView的Item间分割线
-//        DividerItemDecoration decor = new DividerItemDecoration(this,
-//                DividerItemDecoration.VERTICAL_LIST);
-//        mRecyclerView.addItemDecoration(decor);
+        DividerItemDecoration decor = new DividerItemDecoration(this,
+                DividerItemDecoration.VERTICAL_LIST);
+        mRecyclerView.addItemDecoration(decor);
     }
 
     @Override
