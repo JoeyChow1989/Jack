@@ -42,7 +42,7 @@ public class MainActivity extends BeamBaseActivity<MainPresenter>
         tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         getSupportActionBar().setTitle("豆逼  —  给你纯粹的欢乐");
         ButterKnife.bind(this);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         tabLayout.setTabTextColors(getResources().getColor(R.color.whiteTrans80), getResources().getColor(R.color.white));
         viewpager.setAdapter(mMainPagerAdapter = new MainPagerAdapter(getSupportFragmentManager()));
@@ -102,16 +102,12 @@ public class MainActivity extends BeamBaseActivity<MainPresenter>
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.about)
         {
             startActivity(new Intent(this, AboutUsActivity.class));
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
-
-
 }
