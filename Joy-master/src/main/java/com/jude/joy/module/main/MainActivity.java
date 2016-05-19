@@ -19,13 +19,11 @@ import com.jude.joy.module.image.ImageJoyFragment;
 import com.jude.joy.module.setting.AboutUsActivity;
 import com.jude.joy.module.text.TextJoyFragment;
 
-import butterknife.Bind;
 import butterknife.ButterKnife;
 
 @RequiresPresenter(MainPresenter.class)
 public class MainActivity extends BeamBaseActivity<MainPresenter>
 {
-
     ViewPager viewpager;
     AppBarLayout appBarLayout;
     CoordinatorLayout coordinatorLayout;

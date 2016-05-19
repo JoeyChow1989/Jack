@@ -215,6 +215,7 @@ public class ImageDetialActivity extends AppCompatActivity implements View.OnCli
         {
             Toast.makeText(ImageDetialActivity.this, mSaveMessage,
                     Toast.LENGTH_SHORT).show();
+            mBitmap.recycle();
         }
     };
 }
