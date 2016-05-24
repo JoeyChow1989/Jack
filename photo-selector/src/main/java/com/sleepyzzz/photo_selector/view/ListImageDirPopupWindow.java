@@ -66,6 +66,7 @@ public class ListImageDirPopupWindow extends BasePopupWindowForListView<ImageFol
                 return lastSelectIndex;
             }
         };
+
         mListDir = (ListView) findViewById(R.id.lv_list_dir);
         mListDir.setAdapter(folderAdapter);
     }

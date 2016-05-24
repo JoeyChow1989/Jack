@@ -21,7 +21,6 @@ import java.util.List;
  */
 public class PhotoPickerAdapter extends CommonAdapter<String> {
 
-
     private static final String TAG = PhotoPickerAdapter.class.getSimpleName();
     /**
      * 用户选择的图片,存储为图片的完整路径
