@@ -62,7 +62,6 @@ public class ListImageDirPopupWindow extends BasePopupWindowForListView<ImageFol
 
             @Override
             public int getSetlectIndex() {
-
                 return lastSelectIndex;
             }
         };
@@ -73,7 +72,6 @@ public class ListImageDirPopupWindow extends BasePopupWindowForListView<ImageFol
 
     @Override
     protected void init() {
-
     }
 
     public void setOnPhotoDirSelected(OnPhotoDirSelected photoDirSelected) {
