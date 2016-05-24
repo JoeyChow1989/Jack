@@ -49,7 +49,6 @@ public class ListAdapter extends BaseListAdapter<String> {
         } else {
             holder.textView.setText(mDataList.get(position));
         }
-
         return convertView;
     }
 

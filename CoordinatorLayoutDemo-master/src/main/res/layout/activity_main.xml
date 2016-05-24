@@ -24,7 +24,6 @@
             app:expandedTitleTextAppearance="@style/transparentText"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-
             <LinearLayout
                 android:id="@+id/head_layout"
                 android:layout_width="match_parent"

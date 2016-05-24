@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/FanWei_SDK_lib/FanWei_SDK_lib.iml" filepath="$PROJECT_DIR$/FanWei_SDK_lib/FanWei_SDK_lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/GalleryFinal-master/GalleryFinal-master.iml" filepath="$PROJECT_DIR$/GalleryFinal-master/GalleryFinal-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/Girls-master/Girls-master.iml" filepath="$PROJECT_DIR$/Girls-master/Girls-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GsonDemo/GsonDemo.iml" filepath="$PROJECT_DIR$/GsonDemo/GsonDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/HotfixDemo_01/HotfixDemo_01.iml" filepath="$PROJECT_DIR$/HotfixDemo_01/HotfixDemo_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImageChoose_WeiXin/ImageChoose_WeiXin.iml" filepath="$PROJECT_DIR$/ImageChoose_WeiXin/ImageChoose_WeiXin.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImageryHeader-master/ImageryHeader-master.iml" filepath="$PROJECT_DIR$/ImageryHeader-master/ImageryHeader-master.iml" />
@@ -31,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/PullToRefresh/PullToRefresh.iml" filepath="$PROJECT_DIR$/PullToRefresh/PullToRefresh.iml" />
       <module fileurl="file://$PROJECT_DIR$/RefreshDemo-master/RefreshDemo-master.iml" filepath="$PROJECT_DIR$/RefreshDemo-master/RefreshDemo-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/SoundRecorder-master/SoundRecorder-master.iml" filepath="$PROJECT_DIR$/SoundRecorder-master/SoundRecorder-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Speech_Demo/Speech_Demo.iml" filepath="$PROJECT_DIR$/Speech_Demo/Speech_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestActivitylifecycleCallbacks/TestActivitylifecycleCallbacks.iml" filepath="$PROJECT_DIR$/TestActivitylifecycleCallbacks/TestActivitylifecycleCallbacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestSwitcherDemo/TestSwitcherDemo.iml" filepath="$PROJECT_DIR$/TestSwitcherDemo/TestSwitcherDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToolBarDemo/ToolBarDemo.iml" filepath="$PROJECT_DIR$/ToolBarDemo/ToolBarDemo.iml" />
@@ -39,7 +41,6 @@
       <module fileurl="file://$PROJECT_DIR$/YLive/YLive.iml" filepath="$PROJECT_DIR$/YLive/YLive.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZhiHu_demo/ZhiHu_demo.iml" filepath="$PROJECT_DIR$/ZhiHu_demo/ZhiHu_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZxingTest/ZxingTest.iml" filepath="$PROJECT_DIR$/ZxingTest/ZxingTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android-material-drawer-template-master/android-material-drawer-template-master.iml" filepath="$PROJECT_DIR$/android-material-drawer-template-master/android-material-drawer-template-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/autolayout/autolayout.iml" filepath="$PROJECT_DIR$/autolayout/autolayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_lib/demo_lib.iml" filepath="$PROJECT_DIR$/demo_lib/demo_lib.iml" />
