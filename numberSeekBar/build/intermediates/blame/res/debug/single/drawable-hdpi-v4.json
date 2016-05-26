@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\numberSeekBar\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\popwindow_bg1.png",
+        "source": "I:\\MyStudioWork\\Jack\\numberSeekBar\\src\\main\\res\\drawable-hdpi\\popwindow_bg1.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\numberSeekBar\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\thumb_dn.png",
+        "source": "I:\\MyStudioWork\\Jack\\numberSeekBar\\src\\main\\res\\drawable-hdpi\\thumb_dn.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\numberSeekBar\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "I:\\MyStudioWork\\Jack\\numberSeekBar\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\numberSeekBar\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\thumb_up.png",
+        "source": "I:\\MyStudioWork\\Jack\\numberSeekBar\\src\\main\\res\\drawable-hdpi\\thumb_up.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\numberSeekBar\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bar_up.png",
+        "source": "I:\\MyStudioWork\\Jack\\numberSeekBar\\src\\main\\res\\drawable-hdpi\\bar_up.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\numberSeekBar\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bar_dn.png",
+        "source": "I:\\MyStudioWork\\Jack\\numberSeekBar\\src\\main\\res\\drawable-hdpi\\bar_dn.png"
+    }
+]

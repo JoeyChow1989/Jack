@@ -24,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
     public void reDraw(View v) {
 
         heartView.reDraw();
+    }
 
+    @Override
+    protected void onDestroy()
+    {
+        super.onDestroy();
     }
 }

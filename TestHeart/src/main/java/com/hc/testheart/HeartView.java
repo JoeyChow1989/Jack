@@ -15,7 +15,8 @@ import java.util.ArrayList;
  * Package com.hc.testheart
  * Created by HuaChao on 2016/5/25.
  */
-public class HeartView extends SurfaceView implements SurfaceHolder.Callback {
+public class HeartView extends SurfaceView implements SurfaceHolder.Callback
+{
     SurfaceHolder surfaceHolder;
     int offsetX;
     int offsetY;
@@ -28,30 +29,31 @@ public class HeartView extends SurfaceView implements SurfaceHolder.Callback {
     private Canvas canvas;
     private int heartRadio = 1;
 
-    public HeartView(Context context) {
+    public HeartView(Context context)
+    {
         super(context);
         init();
     }
 
-    public HeartView(Context context, AttributeSet attrs) {
+    public HeartView(Context context, AttributeSet attrs)
+    {
         super(context, attrs);
         init();
     }
 
 
-    private void init() {
+    private void init()
+    {
         surfaceHolder = getHolder();
         surfaceHolder.addCallback(this);
         garden = new Garden();
         backgroundPaint = new Paint();
         backgroundPaint.setColor(Color.rgb(0xff, 0xff, 0xe0));
-
-
     }
 
     ArrayList<Bloom> blooms = new ArrayList<>();
-
-    public Point getHeartPoint(float angle) {
+    public Point getHeartPoint(float angle)
+    {
         float t = (float) (angle / Math.PI);
         float x = (float) (heartRadio * (16 * Math.pow(Math.sin(t), 3)));
         float y = (float) (-heartRadio * (13 * Math.cos(t) - 5 * Math.cos(2 * t) - 2 * Math.cos(3 * t) - Math.cos(4 * t)));
@@ -60,9 +62,11 @@ public class HeartView extends SurfaceView implements SurfaceHolder.Callback {
 
 
     //绘制列表里所有的花朵
-    private void drawHeart() {
+    private void drawHeart()
+    {
         canvas.drawRect(0, 0, width, height, backgroundPaint);
-        for (Bloom b : blooms) {
+        for (Bloom b : blooms)
+        {
             b.draw(canvas);
         }
         Canvas c = surfaceHolder.lockCanvas();
@@ -73,43 +77,51 @@ public class HeartView extends SurfaceView implements SurfaceHolder.Callback {
 
     }
 
-    public void reDraw() {
+    public void reDraw()
+    {
         blooms.clear();
-
-
         drawOnNewThread();
     }
 
     @Override
-    public void draw(Canvas canvas) {
+    public void draw(Canvas canvas)
+    {
         super.draw(canvas);
-
     }
 
     //开启一个新线程绘制
-    private void drawOnNewThread() {
-        new Thread() {
+    private void drawOnNewThread()
+    {
+        new Thread()
+        {
             @Override
-            public void run() {
+            public void run()
+            {
                 if (isDrawing) return;
                 isDrawing = true;
 
                 float angle = 10;
-                while (true) {
+                while (true)
+                {
 
                     Bloom bloom = getBloom(angle);
-                    if (bloom != null) {
+                    if (bloom != null)
+                    {
                         blooms.add(bloom);
                     }
-                    if (angle >= 30) {
+                    if (angle >= 30)
+                    {
                         break;
-                    } else {
+                    } else
+                    {
                         angle += 0.2;
                     }
                     drawHeart();
-                    try {
+                    try
+                    {
                         sleep(20);
-                    } catch (InterruptedException e) {
+                    } catch (InterruptedException e)
+                    {
                         e.printStackTrace();
                     }
                 }
@@ -119,7 +131,8 @@ public class HeartView extends SurfaceView implements SurfaceHolder.Callback {
     }
 
 
-    private Bloom getBloom(float angle) {
+    private Bloom getBloom(float angle)
+    {
 
         Point p = getHeartPoint(angle);
 
@@ -127,18 +140,21 @@ public class HeartView extends SurfaceView implements SurfaceHolder.Callback {
         /**循环比较新的坐标位置是否可以创建花朵,
          * 为了防止花朵太密集
          * */
-        for (int i = 0; i < blooms.size(); i++) {
+        for (int i = 0; i < blooms.size(); i++)
+        {
 
             Bloom b = blooms.get(i);
             Point bp = b.getPoint();
             float distance = (float) Math.sqrt(Math.pow(p.x - bp.x, 2) + Math.pow(p.y - bp.y, 2));
-            if (distance < Garden.Options.maxBloomRadius * 1.5) {
+            if (distance < Garden.Options.maxBloomRadius * 1.5)
+            {
                 draw = false;
                 break;
             }
         }
         //如果位置间距满足要求，就在该位置创建花朵并将花朵放入列表
-        if (draw) {
+        if (draw)
+        {
             Bloom bloom = garden.createRandomBloom(p.x, p.y);
             return bloom;
         }
@@ -147,13 +163,13 @@ public class HeartView extends SurfaceView implements SurfaceHolder.Callback {
 
 
     @Override
-    public void surfaceCreated(SurfaceHolder holder) {
-
-
+    public void surfaceCreated(SurfaceHolder holder)
+    {
     }
 
     @Override
-    public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
+    public void surfaceChanged(SurfaceHolder holder, int format, int width, int height)
+    {
 
         this.width = width;
         this.height = height;
@@ -168,7 +184,7 @@ public class HeartView extends SurfaceView implements SurfaceHolder.Callback {
     }
 
     @Override
-    public void surfaceDestroyed(SurfaceHolder holder) {
-
+    public void surfaceDestroyed(SurfaceHolder holder)
+    {
     }
 }

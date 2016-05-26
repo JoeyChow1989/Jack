@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res"/><source path="I:\MyStudioWork\Jack\numberSeekBar\build\generated\res\rs\debug"/><source path="I:\MyStudioWork\Jack\numberSeekBar\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="I:\MyStudioWork\Jack\numberSeekBar\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res"><file name="numberseekbar_background" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\drawable\numberseekbar_background.xml" qualifiers="" type="drawable"/><file name="thumb_bar" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\drawable\thumb_bar.xml" qualifiers="" type="drawable"/><file name="bar_dn" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\drawable-hdpi\bar_dn.png" qualifiers="hdpi-v4" type="drawable"/><file name="bar_up" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\drawable-hdpi\bar_up.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="popwindow_bg1" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\drawable-hdpi\popwindow_bg1.png" qualifiers="hdpi-v4" type="drawable"/><file name="thumb_dn" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\drawable-hdpi\thumb_dn.png" qualifiers="hdpi-v4" type="drawable"/><file name="thumb_up" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\drawable-hdpi\thumb_up.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_main" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_numberseekbar" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\layout\activity_numberseekbar.xml" qualifiers="" type="layout"/><file name="main" path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="NumberProgressBar">
+        <attr format="integer" name="progress"/>
+        <attr format="integer" name="max"/>
+        <attr format="color" name="progress_unreached_color"/>
+        <attr format="color" name="progress_reached_color"/>
+        <attr format="dimension" name="progress_reached_bar_height"/>
+        <attr format="dimension" name="progress_unreached_bar_height"/>
+        <attr format="dimension" name="progress_text_size"/>
+        <attr format="color" name="progress_text_color"/>
+        <attr format="dimension" name="progress_text_offset"/>
+        <attr format="enum" name="progress_text_visibility">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable></file><file path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\values\strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="action_settings">Settings</string><string name="app_name">NumberSeekBar</string></file><file path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="NumberProgressBar_Default">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="max">100</item>
+        <item name="progress">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#3498DB</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#3498DB</item>
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style></file><file path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="I:\MyStudioWork\Jack\numberSeekBar\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source><source path="I:\MyStudioWork\Jack\numberSeekBar\build\generated\res\rs\debug"/><source path="I:\MyStudioWork\Jack\numberSeekBar\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="I:\MyStudioWork\Jack\numberSeekBar\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="NumberProgressBar"><attr format="integer" name="progress"/><attr format="integer" name="max"/><attr format="color" name="progress_unreached_color"/><attr format="color" name="progress_reached_color"/><attr format="dimension" name="progress_reached_bar_height"/><attr format="dimension" name="progress_unreached_bar_height"/><attr format="dimension" name="progress_text_size"/><attr format="color" name="progress_text_color"/><attr format="dimension" name="progress_text_offset"/><attr format="enum" name="progress_text_visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/></attr></declare-styleable></configuration></mergedItems></merger>
