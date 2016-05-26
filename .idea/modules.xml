@@ -35,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/SoundRecorder-master/SoundRecorder-master.iml" filepath="$PROJECT_DIR$/SoundRecorder-master/SoundRecorder-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/Speech_Demo/Speech_Demo.iml" filepath="$PROJECT_DIR$/Speech_Demo/Speech_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestActivitylifecycleCallbacks/TestActivitylifecycleCallbacks.iml" filepath="$PROJECT_DIR$/TestActivitylifecycleCallbacks/TestActivitylifecycleCallbacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestHeart/TestHeart.iml" filepath="$PROJECT_DIR$/TestHeart/TestHeart.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestSwitcherDemo/TestSwitcherDemo.iml" filepath="$PROJECT_DIR$/TestSwitcherDemo/TestSwitcherDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToolBarDemo/ToolBarDemo.iml" filepath="$PROJECT_DIR$/ToolBarDemo/ToolBarDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/VolleyDemo/VolleyDemo.iml" filepath="$PROJECT_DIR$/VolleyDemo/VolleyDemo.iml" />

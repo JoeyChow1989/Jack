@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity implements
             public void run() {
                 mStrings.add("load item " + mStrings.size());
                 mStrings.add("load item " + (mStrings.size()));
-
                 mRefreshLayout.loadMoreFinish(true);
                 updateListData();
 
