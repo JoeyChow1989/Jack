@@ -34,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/RefreshDemo-master/RefreshDemo-master.iml" filepath="$PROJECT_DIR$/RefreshDemo-master/RefreshDemo-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/SoundRecorder-master/SoundRecorder-master.iml" filepath="$PROJECT_DIR$/SoundRecorder-master/SoundRecorder-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/Speech_Demo/Speech_Demo.iml" filepath="$PROJECT_DIR$/Speech_Demo/Speech_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SuperVideoPlayer-master/SuperVideoPlayer-master.iml" filepath="$PROJECT_DIR$/SuperVideoPlayer-master/SuperVideoPlayer-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestActivitylifecycleCallbacks/TestActivitylifecycleCallbacks.iml" filepath="$PROJECT_DIR$/TestActivitylifecycleCallbacks/TestActivitylifecycleCallbacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestHeart/TestHeart.iml" filepath="$PROJECT_DIR$/TestHeart/TestHeart.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestSwitcherDemo/TestSwitcherDemo.iml" filepath="$PROJECT_DIR$/TestSwitcherDemo/TestSwitcherDemo.iml" />
@@ -57,6 +58,7 @@
       <module fileurl="file://$PROJECT_DIR$/numberSeekBar/numberSeekBar.iml" filepath="$PROJECT_DIR$/numberSeekBar/numberSeekBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/photo-selector/photo-selector.iml" filepath="$PROJECT_DIR$/photo-selector/photo-selector.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/super_vitamio/super_vitamio.iml" filepath="$PROJECT_DIR$/super_vitamio/super_vitamio.iml" />
       <module fileurl="file://$PROJECT_DIR$/titlebar/titlebar.iml" filepath="$PROJECT_DIR$/titlebar/titlebar.iml" />
       <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />
     </modules>
