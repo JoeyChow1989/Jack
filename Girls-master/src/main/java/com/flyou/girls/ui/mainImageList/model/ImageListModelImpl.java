@@ -30,23 +30,29 @@ import rx.schedulers.Schedulers;
  * 版本：@version  V1.0
  * ============================================================
  **/
-public class ImageListModelImpl implements ImageListModel {
+public class ImageListModelImpl implements ImageListModel
+{
 
 
     @Override
-    public void GetImageList(final String type, final int page, final GetImageListenter listener) {
+    public void GetImageList(final String type, final int page, final GetImageListenter listener)
+    {
 
 
-        Observable<List<ImageListDomain>> observable = Observable.create(new Observable.OnSubscribe<List<ImageListDomain>>() {
+        Observable<List<ImageListDomain>> observable = Observable.create(new Observable.OnSubscribe<List<ImageListDomain>>()
+        {
             @Override
-            public void call(Subscriber<? super List<ImageListDomain>> subscriber) {
+            public void call(Subscriber<? super List<ImageListDomain>> subscriber)
+            {
                 List<ImageListDomain> imageListDomainList = new ArrayList();
-                try {
-                    Document document = Jsoup.connect(Constant.BASE_URL + type+page).get();
+                try
+                {
+                    Document document = Jsoup.connect(Constant.BASE_URL + type + page).get();
                     Element imageListelement = document.getElementById("blog-grid");
 
-                    Elements imageListElements = imageListelement.getElementsByAttributeValueContaining("class","col-lg-4 col-md-4 three-columns post-box");
-                    for (Element imageListElement : imageListElements) {
+                    Elements imageListElements = imageListelement.getElementsByAttributeValueContaining("class", "col-lg-4 col-md-4 three-columns post-box");
+                    for (Element imageListElement : imageListElements)
+                    {
                         Element link = imageListElement.select("a[href]").first();
                         Element image = imageListElement.select("img").first();
                         String linkUrl = link.attr("abs:href");
@@ -54,10 +60,14 @@ public class ImageListModelImpl implements ImageListModel {
                         String imageTitle = image.attr("alt").trim();
                         imageListDomainList.add(new ImageListDomain(linkUrl, imageUrl, imageTitle));
 
+
+                        System.out.println("--------------imageUrl----------------" + imageUrl);
+
                     }
                     subscriber.onNext(imageListDomainList);
 
-                } catch (IOException e) {
+                } catch (IOException e)
+                {
                     subscriber.onError(e);
 
                 }
@@ -65,18 +75,22 @@ public class ImageListModelImpl implements ImageListModel {
             }
         });
 
-        Subscriber<List<ImageListDomain>> subscriber = new Subscriber<List<ImageListDomain>>() {
+        Subscriber<List<ImageListDomain>> subscriber = new Subscriber<List<ImageListDomain>>()
+        {
             @Override
-            public void onCompleted() {
+            public void onCompleted()
+            {
             }
 
             @Override
-            public void onError(Throwable e) {
+            public void onError(Throwable e)
+            {
                 listener.OnError((Exception) e);
             }
 
             @Override
-            public void onNext(List<ImageListDomain> imageListDomains) {
+            public void onNext(List<ImageListDomain> imageListDomains)
+            {
                 listener.onSuccess(imageListDomains);
             }
         };
@@ -89,7 +103,8 @@ public class ImageListModelImpl implements ImageListModel {
 
     }
 
-    public interface GetImageListenter {
+    public interface GetImageListenter
+    {
         void onSuccess(List<ImageListDomain> imageList);
 
         void OnError(Exception e);

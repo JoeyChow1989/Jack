@@ -1,13 +1,8 @@
 package com.flyou.girls.ui;
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.Environment;
-import android.os.Handler;
-import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -21,10 +16,8 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.flyou.girls.R;
 
-import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -35,25 +28,15 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 import uk.co.senab.photoview.PhotoViewAttacher;
 
-public class ImageDetialActivity extends AppCompatActivity implements View.OnClickListener
-{
+public class ImageDetialActivity extends AppCompatActivity implements View.OnClickListener {
     private TextView mDownLoad;
     private ImageView mImageView;
     private PhotoViewAttacher mAttacher;
     private TextView mLoading;
     private String mImageurl;
-    private final static String ALBUM_PATH = Environment
-            .getExternalStorageDirectory() + "/girls/";
-    private Thread saveThread;
-
-    private Bitmap mBitmap;
-    private String mFileName;
-    private String mSaveMessage;
-    private Thread connectThread;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);//去掉标题栏
 
@@ -63,29 +46,22 @@ public class ImageDetialActivity extends AppCompatActivity implements View.OnCli
         initView();
         initDate();
 
-        connectThread = new Thread(connectNet);
-        connectThread.start();
-
     }
 
-    private void initDate()
-    {
+    private void initDate() {
         mImageurl = getIntent().getStringExtra("imageurl");
         Glide.with(ImageDetialActivity.this)
                 .load(mImageurl)
 //                .centerCrop()
                 .crossFade()
-                .listener(new RequestListener<String, GlideDrawable>()
-                {
+                .listener(new RequestListener<String, GlideDrawable>() {
                     @Override
-                    public boolean onException(Exception e, String model, Target<GlideDrawable> target, boolean isFirstResource)
-                    {
+                    public boolean onException(Exception e, String model, Target<GlideDrawable> target, boolean isFirstResource) {
                         return false;
                     }
 
                     @Override
-                    public boolean onResourceReady(GlideDrawable resource, String model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource)
-                    {
+                    public boolean onResourceReady(GlideDrawable resource, String model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
                         mLoading.setVisibility(View.GONE);
                         mDownLoad.setVisibility(View.VISIBLE);
                         return false;
@@ -99,8 +75,7 @@ public class ImageDetialActivity extends AppCompatActivity implements View.OnCli
 
     }
 
-    private void initView()
-    {
+    private void initView() {
         mDownLoad = (TextView) findViewById(R.id.download);
         mLoading = (TextView) findViewById(R.id.laoding);
         mImageView = (ImageView) findViewById(R.id.imageView);
@@ -109,113 +84,76 @@ public class ImageDetialActivity extends AppCompatActivity implements View.OnCli
     }
 
     @Override
-    public void onClick(View v)
-    {
-        switch (v.getId())
-        {
+    public void onClick(View v) {
+        switch (v.getId()) {
             case R.id.download:
-                saveThread = new Thread(saveFileRunnable);
-                saveThread.start();
+                Observable<String> observable = Observable.create(new Observable.OnSubscribe<String>() {
+                    @Override
+                    public void call(Subscriber<? super String> subscriber) {
+                        String fileName = System.currentTimeMillis() + ".jpg";
+                        File file = new File(Environment.getExternalStorageDirectory() + File.separator+"Girls", fileName);
+
+                        if (Environment.getExternalStorageState().equals(
+
+                                Environment.MEDIA_MOUNTED)) {
+
+                            try {
+
+
+                                if (!file.exists()){
+                                    file.mkdirs();
+                                }
+                                // 从网络上获取图片
+                                URL url = new URL(mImageurl);
+                                HttpURLConnection conn = null;
+
+                                conn = (HttpURLConnection) url.openConnection();
+                                conn.setConnectTimeout(5000);
+                                conn.setRequestMethod("GET");
+                                conn.setDoInput(true);
+                                if (conn.getResponseCode() == 200) {
+
+                                    InputStream is = conn.getInputStream();
+                                    FileOutputStream fos = new FileOutputStream(file);
+                                    byte[] buffer = new byte[1024];
+                                    int len = 0;
+                                    while ((len = is.read(buffer)) != -1) {
+                                        fos.write(buffer, 0, len);
+                                    }
+                                    is.close();
+                                    fos.close();
+
+                                }
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
+                            subscriber.onNext(file.getAbsolutePath());
+                        } else {
+                            Toast.makeText(ImageDetialActivity.this, "没有发现sd卡，无法下载", Toast.LENGTH_SHORT).show();
+                        }
+
+                    }
+                });
+                Subscriber<String> subscriber = new Subscriber<String>() {
+                    @Override
+                    public void onCompleted() {
+
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        Toast.makeText(ImageDetialActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+
+                    @Override
+                    public void onNext(String s) {
+                        Toast.makeText(ImageDetialActivity.this, "图片下载成功：" + s, Toast.LENGTH_SHORT).show();
+                    }
+                };
+                observable.subscribeOn(Schedulers.io())
+                        .observeOn(AndroidSchedulers.mainThread())
+                        .subscribe(subscriber);
                 break;
         }
     }
-
-    private Runnable connectNet = new Runnable()
-    {
-
-        @Override
-        public void run()
-        {
-            try
-            {
-                String filePath = mImageurl;
-                mFileName = System.currentTimeMillis() + ".jpg";
-                // 取得的是inputstream，直接从inputstream生成bitmap
-                mBitmap = BitmapFactory.decodeStream(getImageStream(filePath));
-                // 发送消息，通知handler在主线程中更新ui
-                connectHanlder.sendEmptyMessage(0);
-            } catch (Exception e)
-            {
-                Toast.makeText(ImageDetialActivity.this, "无法链接网络！", Toast.LENGTH_SHORT).show();
-                e.printStackTrace();
-            }
-        }
-    };
-
-    /*
-     * 从网络获取图片
-     */
-    protected InputStream getImageStream(String path) throws Exception
-    {
-        URL url = new URL(path);
-        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-        conn.setConnectTimeout(10 * 1000);
-        conn.setRequestMethod("GET");
-        if (conn.getResponseCode() == HttpURLConnection.HTTP_OK)
-        {
-            return conn.getInputStream();
-        }
-        return null;
-    }
-
-    private Handler connectHanlder = new Handler()
-    {
-        @Override
-        public void handleMessage(Message msg)
-        {
-            // 更新UI，显示图片
-            if (mBitmap != null)
-            {
-                mImageView.setImageBitmap(mBitmap);// display image
-            }
-        }
-    };
-
-    private Runnable saveFileRunnable = new Runnable()
-    {
-
-        @Override
-        public void run()
-        {
-            try
-            {
-                saveFile(mBitmap, mFileName);
-                mSaveMessage = "图片保存成功！";
-            } catch (Exception e)
-            {
-                mSaveMessage = "图片保存失败！";
-                e.printStackTrace();
-            }
-            messageHandler.sendMessage(messageHandler.obtainMessage());
-        }
-    };
-
-    /*
-     * 保存文件
-     */
-    protected void saveFile(Bitmap bm, String fileName) throws IOException
-    {
-        File dirFile = new File(ALBUM_PATH);
-        if (!dirFile.exists())
-        {
-            dirFile.mkdir();
-        }
-        File myCaptureFile = new File(ALBUM_PATH + fileName);
-        BufferedOutputStream bos = new BufferedOutputStream(
-                new FileOutputStream(myCaptureFile));
-        bm.compress(Bitmap.CompressFormat.JPEG, 80, bos);
-        bos.flush();
-        bos.close();
-    }
-
-    private Handler messageHandler = new Handler()
-    {
-        @Override
-        public void handleMessage(Message msg)
-        {
-            Toast.makeText(ImageDetialActivity.this, mSaveMessage,
-                    Toast.LENGTH_SHORT).show();
-            mBitmap.recycle();
-        }
-    };
 }

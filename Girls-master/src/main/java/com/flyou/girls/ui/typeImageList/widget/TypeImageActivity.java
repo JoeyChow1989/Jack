@@ -16,17 +16,19 @@ import com.flyou.girls.R;
 import com.flyou.girls.adapter.SpacesItemDecoration;
 import com.flyou.girls.adapter.ViewHolder;
 import com.flyou.girls.adapter.recyclerview.CommonAdapter;
-import com.flyou.girls.ui.ImageDetialActivity;
+import com.flyou.girls.ui.ImageViewPagerActivity;
 import com.flyou.girls.ui.typeImageList.domain.TypeImageDomain;
 import com.flyou.girls.ui.typeImageList.persenter.TypeImageListPersenter;
 import com.flyou.girls.ui.typeImageList.persenter.TypeImageListPersenterImpl;
 import com.flyou.girls.ui.typeImageList.view.TypeImageListView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import jp.wasabeef.recyclerview.animators.SlideInLeftAnimator;
 
-public class TypeImageActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener, TypeImageListView {
+public class TypeImageActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener, TypeImageListView
+{
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
     private TypeImageListPersenter mPersenter;
@@ -37,7 +39,8 @@ public class TypeImageActivity extends AppCompatActivity implements SwipeRefresh
     private Toolbar mToolbar;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_type_image);
@@ -47,25 +50,31 @@ public class TypeImageActivity extends AppCompatActivity implements SwipeRefresh
 
     }
 
-    private void initView() {
+    private void initView()
+    {
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.sw_layout);
-        mRecyclerView = (RecyclerView) findViewById(R.id.receiverview);
+        mRecyclerView = (RecyclerView) findViewById(R.id.receiverview1);
         mSwipeRefreshLayout.setColorSchemeResources(R.color.colorPrimary);
         mSwipeRefreshLayout.setOnRefreshListener(this);
 
     }
 
-    private void initDate() {
+    private void initDate()
+    {
         mLinkUrl = getIntent().getStringExtra("linkUrl");
-        if (mLinkUrl.isEmpty()) {
+
+        System.out.println("--------------mLinkUrl-----------------" + mLinkUrl);
+        if (mLinkUrl.isEmpty())
+        {
             Toast.makeText(this, "加载图片列表失败", Toast.LENGTH_SHORT).show();
             return;
         }
 
         mTitle = getIntent().getStringExtra("title");
         //设置ToolBar tit了 必须放在    getSupportActionBar().setDisplayHomeAsUpEnabled(true);之前 不然没有效果
-        if (!mTitle.isEmpty()) {
+        if (!mTitle.isEmpty())
+        {
             mToolbar.setTitle(mTitle);
         }
         setSupportActionBar(mToolbar);
@@ -75,50 +84,66 @@ public class TypeImageActivity extends AppCompatActivity implements SwipeRefresh
         mPersenter.startGetImageList(mLinkUrl);
     }
 
-    private void setListener() {
-        mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+    private void setListener()
+    {
+        mToolbar.setNavigationOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
                 onBackPressed();
             }
         });
     }
 
     @Override
-    public void onRefresh() {
-
+    public void onRefresh()
+    {
         mPersenter.startGetImageList(mLinkUrl);
     }
 
     @Override
-    public void showLaoding() {
+    public void showLaoding()
+    {
         mSwipeRefreshLayout.measure(View.MEASURED_SIZE_MASK, View.MEASURED_HEIGHT_STATE_SHIFT);
         mSwipeRefreshLayout.setRefreshing(true);
     }
 
     @Override
-    public void hideLoading() {
+    public void hideLoading()
+    {
         mSwipeRefreshLayout.setRefreshing(false);
     }
 
     @Override
-    public void showLoadFaild(Exception e) {
+    public void showLoadFaild(Exception e)
+    {
         Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
-    public void receiveImageList(final List<TypeImageDomain> typeImageDomains) {
-        if (mAdapter == null) {
-            mAdapter = new CommonAdapter<TypeImageDomain>(TypeImageActivity.this, R.layout.view_item_type_image, typeImageDomains) {
+    public void receiveImageList(final List<TypeImageDomain> typeImageDomains)
+    {
+
+        if (mAdapter == null)
+        {
+            mAdapter = new CommonAdapter<TypeImageDomain>(TypeImageActivity.this, R.layout.view_item_type_image, typeImageDomains)
+            {
                 @Override
-                public void convert(ViewHolder holder, final TypeImageDomain typeImageDomain) {
+                public void convert(final ViewHolder holder, final TypeImageDomain typeImageDomain)
+                {
+
+                    System.out.println("--------------url-------------"+typeImageDomain.getUrl());
+
                     holder.setImageWithUrlAndSize(R.id.imageView, typeImageDomain.getUrl(), typeImageDomain.getWidth(), typeImageDomain.getHeight());
-                    holder.setOnClickListener(R.id.imageView, new View.OnClickListener() {
+                    holder.setOnClickListener(R.id.imageView, new View.OnClickListener()
+                    {
                         @Override
-                        public void onClick(View v) {
-                            Intent intent = new Intent(TypeImageActivity.this, ImageDetialActivity.class);
-//                            intent.putParcelableArrayListExtra("imagelist", (ArrayList) typeImageDomains);
-                            intent.putExtra("imageurl", typeImageDomain.getFullSizeUrl());
+                        public void onClick(View v)
+                        {
+                            Intent intent = new Intent(TypeImageActivity.this, ImageViewPagerActivity.class);
+                            intent.putParcelableArrayListExtra("imagelist", (ArrayList<TypeImageDomain>) typeImageDomains);
+                            intent.putExtra("position", holder.getCurPosition());
                             ActivityOptionsCompat options =
                                     ActivityOptionsCompat.makeSceneTransitionAnimation(TypeImageActivity.this);
                             ActivityCompat.startActivity(TypeImageActivity.this, intent, options.toBundle());
@@ -134,7 +159,8 @@ public class TypeImageActivity extends AppCompatActivity implements SwipeRefresh
             mRecyclerView.addItemDecoration(decoration);
             mRecyclerView.setAdapter(mAdapter);
 
-        } else {
+        } else
+        {
             mAdapter.notifyDataSetChanged();
 
         }
