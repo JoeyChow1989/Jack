@@ -92,12 +92,12 @@
         "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\drawable-xxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
-        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ab_share_pack_holo_dark.9.png",
-        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\drawable-xxhdpi\\abc_ab_share_pack_holo_dark.9.png"
-    },
-    {
         "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\drawable-xxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ab_share_pack_holo_dark.9.png",
+        "source": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\drawable-xxhdpi\\abc_ab_share_pack_holo_dark.9.png"
     },
     {
         "merged": "I:\\MyStudioWork\\Jack\\material-notes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",

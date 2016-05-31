@@ -72,16 +72,16 @@
         "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_bar_states.xml"
     },
     {
-        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\fanwei_shape_titile_bk.xml",
-        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\fanwei_shape_titile_bk.xml"
-    },
-    {
         "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\dialog_button_submit.xml",
         "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\dialog_button_submit.xml"
     },
     {
         "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\msp_icon.png",
         "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\msp_icon.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\fanwei_shape_titile_bk.xml",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\fanwei_shape_titile_bk.xml"
     },
     {
         "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_ok_selector.xml",

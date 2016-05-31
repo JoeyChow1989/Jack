@@ -148,12 +148,12 @@
         "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\fanwei_choose_game_card_imag.png"
     },
     {
-        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\fanwei_error_icon_imag.png",
-        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\fanwei_error_icon_imag.png"
-    },
-    {
         "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\fanwei_card_pay_back.png",
         "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\fanwei_card_pay_back.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\fanwei_error_icon_imag.png",
+        "source": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\fanwei_error_icon_imag.png"
     },
     {
         "merged": "I:\\MyStudioWork\\Jack\\FanWei_SDK_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\fanwei_wy.png",

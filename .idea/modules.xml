@@ -45,6 +45,8 @@
       <module fileurl="file://$PROJECT_DIR$/YLive/YLive.iml" filepath="$PROJECT_DIR$/YLive/YLive.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZhiHu_demo/ZhiHu_demo.iml" filepath="$PROJECT_DIR$/ZhiHu_demo/ZhiHu_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZxingTest/ZxingTest.iml" filepath="$PROJECT_DIR$/ZxingTest/ZxingTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_bottom_library/android_bottom_library.iml" filepath="$PROJECT_DIR$/android_bottom_library/android_bottom_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_bottomnavigation/android_bottomnavigation.iml" filepath="$PROJECT_DIR$/android_bottomnavigation/android_bottomnavigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/autolayout/autolayout.iml" filepath="$PROJECT_DIR$/autolayout/autolayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_lib/demo_lib.iml" filepath="$PROJECT_DIR$/demo_lib/demo_lib.iml" />

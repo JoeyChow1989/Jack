@@ -64,12 +64,12 @@
         "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\fanwei_in_bt_imag.png"
     },
     {
-        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fanwei_error_icon_imag.png",
-        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\fanwei_error_icon_imag.png"
-    },
-    {
         "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_background.9.png",
         "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\title_background.9.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fanwei_error_icon_imag.png",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\fanwei_error_icon_imag.png"
     },
     {
         "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fanwei_close_cashier_bt.png",
@@ -156,16 +156,16 @@
         "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\fanwei_btn_out_imag.9.png"
     },
     {
-        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fanwei_th.png",
-        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\fanwei_th.png"
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh_push.9.png",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\refresh_push.9.png"
     },
     {
         "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh.9.png",
         "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\refresh.9.png"
     },
     {
-        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh_push.9.png",
-        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\refresh_push.9.png"
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fanwei_th.png",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\fanwei_th.png"
     },
     {
         "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\popup_bg.9.png",
@@ -204,12 +204,12 @@
         "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\fanwei_card_pay_back.png"
     },
     {
-        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fanwei_dialog_bk.9.png",
-        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\fanwei_dialog_bk.9.png"
-    },
-    {
         "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fanwei_choose_game_card_imag.png",
         "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\fanwei_choose_game_card_imag.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fanwei_dialog_bk.9.png",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable-hdpi-v4\\fanwei_dialog_bk.9.png"
     },
     {
         "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fanwei_right.png",
