@@ -4,12 +4,12 @@
         "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable\\fanwei_pay_btn_selector.xml"
     },
     {
-        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable\\refresh_button.xml",
-        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable\\refresh_button.xml"
-    },
-    {
         "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_button_colorlist.xml",
         "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable\\dialog_button_colorlist.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable\\refresh_button.xml",
+        "source": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\exploded-aar\\Jack\\FanWei_SDK_lib\\unspecified\\res\\drawable\\refresh_button.xml"
     },
     {
         "merged": "I:\\MyStudioWork\\Jack\\demo_lib\\build\\intermediates\\res\\merged\\debug\\drawable\\fanwei_shape_amount_bk.xml",

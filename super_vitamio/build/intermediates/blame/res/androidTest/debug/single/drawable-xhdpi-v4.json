@@ -28,15 +28,15 @@
         "source": "I:\\MyStudioWork\\Jack\\super_vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_normal_holo.png"
     },
     {
-        "merged": "I:\\MyStudioWork\\Jack\\super_vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\mediacontroller_play.png",
-        "source": "I:\\MyStudioWork\\Jack\\super_vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_play.png"
+        "merged": "I:\\MyStudioWork\\Jack\\super_vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\scrubber_track_holo_dark.9.png",
+        "source": "I:\\MyStudioWork\\Jack\\super_vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_track_holo_dark.9.png"
     },
     {
         "merged": "I:\\MyStudioWork\\Jack\\super_vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\mediacontroller_pause.png",
         "source": "I:\\MyStudioWork\\Jack\\super_vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_pause.png"
     },
     {
-        "merged": "I:\\MyStudioWork\\Jack\\super_vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\scrubber_track_holo_dark.9.png",
-        "source": "I:\\MyStudioWork\\Jack\\super_vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_track_holo_dark.9.png"
+        "merged": "I:\\MyStudioWork\\Jack\\super_vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\mediacontroller_play.png",
+        "source": "I:\\MyStudioWork\\Jack\\super_vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_play.png"
     }
 ]
