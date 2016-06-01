@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\views_ptr_frame_header.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\views_ptr_frame_header.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\base_header_bar_base.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\base_header_bar_base.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_list_grid.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\item_image_list_grid.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_list_big.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\item_image_list_big.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_imageloader_management.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\fragment_imageloader_management.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bitmap.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\fragment_bitmap.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_image_list_small.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\fragment_image_list_small.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\item_home.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\item_home.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dotview.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\fragment_dotview.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_image_gird.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\fragment_image_gird.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_more_action_view.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\fragment_more_action_view.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_request_cache_management.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\fragment_request_cache_management.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_title_base_frame.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\activity_title_base_frame.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_request_demo.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\fragment_request_demo.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\ht_views_bimai_cat_item.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\ht_views_bimai_cat_item.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_title_base.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\fragment_title_base.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_image_list_big.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\fragment_image_list_big.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_title_base.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\activity_title_base.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\ptr_header.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\exploded-aar\\Jack\\core\\unspecified\\res\\layout\\ptr_header.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\base_views_title_and_info.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\base_views_title_and_info.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\base_header_bar_title.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\base_header_bar_title.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_list_small.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\item_image_list_small.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pager_tab_indicator.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\fragment_pager_tab_indicator.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tabs.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\layout\\activity_tabs.xml"
+    }
+]

@@ -49,6 +49,8 @@
       <module fileurl="file://$PROJECT_DIR$/android_bottomnavigation/android_bottomnavigation.iml" filepath="$PROJECT_DIR$/android_bottomnavigation/android_bottomnavigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/autolayout/autolayout.iml" filepath="$PROJECT_DIR$/autolayout/autolayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cube-sdk-master/cube-sdk-master.iml" filepath="$PROJECT_DIR$/cube-sdk-master/cube-sdk-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_lib/demo_lib.iml" filepath="$PROJECT_DIR$/demo_lib/demo_lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_reg5137/design_reg5137.iml" filepath="$PROJECT_DIR$/design_reg5137/design_reg5137.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventbus_demo/eventbus_demo.iml" filepath="$PROJECT_DIR$/eventbus_demo/eventbus_demo.iml" />
@@ -63,6 +65,8 @@
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/super_vitamio/super_vitamio.iml" filepath="$PROJECT_DIR$/super_vitamio/super_vitamio.iml" />
       <module fileurl="file://$PROJECT_DIR$/titlebar/titlebar.iml" filepath="$PROJECT_DIR$/titlebar/titlebar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uCrop-master/uCrop-master.iml" filepath="$PROJECT_DIR$/uCrop-master/uCrop-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ucrop/ucrop.iml" filepath="$PROJECT_DIR$/ucrop/ucrop.iml" />
       <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />
     </modules>
   </component>

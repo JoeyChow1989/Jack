@@ -1,0 +1,273 @@
+[
+    {
+        "outputFile": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 49,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 43,
+                    "endOffset": 144
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 43,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1528,
+                    "endColumn": 91,
+                    "endOffset": 1615
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 91,
+                        "endOffset": 196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1620,
+                    "endColumn": 52,
+                    "endOffset": 1668
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 52,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1673,
+                    "endColumn": 50,
+                    "endOffset": 1719
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 549,
+                        "endColumn": 50,
+                        "endOffset": 595
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1724,
+                    "endColumn": 79,
+                    "endOffset": 1799
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 259,
+                        "endColumn": 79,
+                        "endOffset": 334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1804,
+                    "endColumn": 57,
+                    "endOffset": 1857
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 201,
+                        "endColumn": 57,
+                        "endOffset": 254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1862,
+                    "endColumn": 59,
+                    "endOffset": 1917
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 489,
+                        "endColumn": 59,
+                        "endOffset": 544
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1922,
+                    "endColumn": 65,
+                    "endOffset": 1983
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 339,
+                        "endColumn": 65,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1988,
+                    "endColumn": 45,
+                    "endOffset": 2029
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 601,
+                        "endColumn": 45,
+                        "endOffset": 642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2034,
+                    "endColumn": 83,
+                    "endOffset": 2113
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 83,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2118,
+                    "endColumn": 51,
+                    "endOffset": 2165
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 115,
+                        "endColumn": 52,
+                        "endOffset": 163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2170,
+                    "endColumn": 97,
+                    "endOffset": 2263
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 98,
+                        "endOffset": 263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2268,
+                    "endColumn": 86,
+                    "endOffset": 2350
+                },
+                "from": {
+                    "file": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 93,
+                        "endOffset": 358
+                    }
+                }
+            }
+        ]
+    }
+]

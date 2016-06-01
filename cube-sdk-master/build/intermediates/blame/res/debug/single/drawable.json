@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\drawable\\base_img_placeholder.png",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\drawable\\base_img_placeholder.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_border.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\drawable\\selector_border.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\drawable\\request_demo_divider.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\drawable\\request_demo_divider.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_border_normal.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\drawable\\bg_border_normal.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_border_selected.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\drawable\\selector_border_selected.xml"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_border_normal.xml",
+        "source": "I:\\MyStudioWork\\Jack\\cube-sdk-master\\src\\main\\res\\drawable\\selector_border_normal.xml"
+    }
+]

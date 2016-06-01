@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="I:\MyStudioWork\Jack\cube-sdk-master\build\intermediates\exploded-aar\Jack\core\unspecified\assets"/></dataSet><dataSet config="main"><source path="I:\MyStudioWork\Jack\cube-sdk-master\src\main\assets"><file name="request_init/demo/image-list.json" path="I:\MyStudioWork\Jack\cube-sdk-master\src\main\assets\request_init\demo\image-list.json"/></source></dataSet><dataSet config="debug"><source path="I:\MyStudioWork\Jack\cube-sdk-master\src\debug\assets"/></dataSet></merger>
