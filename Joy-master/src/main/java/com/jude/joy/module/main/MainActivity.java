@@ -19,14 +19,19 @@ import com.jude.joy.module.image.ImageJoyFragment;
 import com.jude.joy.module.setting.AboutUsActivity;
 import com.jude.joy.module.text.TextJoyFragment;
 
+import butterknife.Bind;
 import butterknife.ButterKnife;
 
 @RequiresPresenter(MainPresenter.class)
 public class MainActivity extends BeamBaseActivity<MainPresenter>
 {
+    @Bind(R.id.viewPager)
     ViewPager viewpager;
+    @Bind(R.id.app_bar_layout)
     AppBarLayout appBarLayout;
+    @Bind(R.id.coordinator_layout)
     CoordinatorLayout coordinatorLayout;
+    @Bind(R.id.tab_layout)
     TabLayout tabLayout;
     private MainPagerAdapter mMainPagerAdapter;
 
@@ -36,10 +41,10 @@ public class MainActivity extends BeamBaseActivity<MainPresenter>
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        viewpager = (ViewPager) findViewById(R.id.viewPager);
-        appBarLayout = (AppBarLayout) findViewById(R.id.app_bar_layout);
-        coordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinator_layout);
-        tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+//        viewpager = (ViewPager) findViewById(R.id.viewPager);
+//        appBarLayout = (AppBarLayout) findViewById(R.id.app_bar_layout);
+//        coordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinator_layout);
+//        tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         getSupportActionBar().setTitle("豆逼  —  给你纯粹的欢乐");
         ButterKnife.bind(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
