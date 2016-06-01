@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\ptr-demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\buildings.png",
+        "source": "I:\\MyStudioWork\\Jack\\ptr-demo\\res\\drawable-mdpi\\buildings.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\ptr-demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "I:\\MyStudioWork\\Jack\\ptr-demo\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\ptr-demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sky.png",
+        "source": "I:\\MyStudioWork\\Jack\\ptr-demo\\res\\drawable-mdpi\\sky.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\ptr-demo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sun.png",
+        "source": "I:\\MyStudioWork\\Jack\\ptr-demo\\res\\drawable-mdpi\\sun.png"
+    }
+]

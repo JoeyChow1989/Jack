@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\ptr-demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sun.png",
+        "source": "I:\\MyStudioWork\\Jack\\ptr-demo\\res\\drawable-xhdpi\\sun.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\ptr-demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sky.png",
+        "source": "I:\\MyStudioWork\\Jack\\ptr-demo\\res\\drawable-xhdpi\\sky.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\ptr-demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\buildings.png",
+        "source": "I:\\MyStudioWork\\Jack\\ptr-demo\\res\\drawable-xhdpi\\buildings.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\ptr-demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ptr_rotate_arrow.png",
+        "source": "I:\\MyStudioWork\\Jack\\ptr-demo\\build\\intermediates\\exploded-aar\\Jack\\ptr-lib\\unspecified\\res\\drawable-xhdpi-v4\\ptr_rotate_arrow.png"
+    },
+    {
+        "merged": "I:\\MyStudioWork\\Jack\\ptr-demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "I:\\MyStudioWork\\Jack\\ptr-demo\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]

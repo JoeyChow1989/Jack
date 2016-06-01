@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="akta">
+        <item>22,0,0,30,</item>
+        <item>22,0,30,0,</item>
+        <item>30,0,52,30,</item>
+        <item>0,30,26,30,</item>
+        <item>60,0,60,15,</item>
+        <item>60,15,60,30,</item>
+        <item>60,15,85,15,</item>
+        <item>85,15,108,0,</item>
+        <item>85,15,108,30,</item>
+        <item>117,0,147,0,</item>
+        <item>147,0,177,0,</item>
+        <item>147,0,147,32,</item>
+        <item>198,0,176,30,</item>
+        <item>198,0,206,0,</item>
+        <item>206,0,228,30,</item>
+        <item>176,30,202,30,</item>
+    </string-array>
+    <integer-array name="google_colors">
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </integer-array>
+    <string-array name="storehouse">
+        <item>0,35,12,42,</item>
+        <item>12,42,24,35,</item>
+        <item>24,35,12,28,</item>
+        <item>0,35,12,28,</item>
+        <item>0,21,12,28,</item>
+        <item>12,28,24,21,</item>
+        <item>24,35,24,21,</item>
+        <item>24,21,12,14,</item>
+        <item>0,21,12,14,</item>
+        <item>0,21,0,7,</item>
+        <item>12,14,0,7,</item>
+        <item>12,14,24,7,</item>
+        <item>24,7,12,0,</item>
+        <item>0,7,12,0,</item>
+    </string-array>
+    <color name="blue">#FF375BF1</color>
+    <color name="cube_holo_blue_bright">#ff00ddff</color>
+    <color name="cube_holo_blue_dark">#ff0099cc</color>
+    <color name="cube_holo_blue_light">#ff33b5e5</color>
+    <color name="cube_holo_green_dark">#ff669900</color>
+    <color name="cube_holo_green_light">#ff99cc00</color>
+    <color name="cube_holo_orange_dark">#ffff8800</color>
+    <color name="cube_holo_orange_light">#ffffbb33</color>
+    <color name="cube_holo_purple">#ffaa66cc</color>
+    <color name="cube_holo_red_dark">#ffcc0000</color>
+    <color name="cube_holo_red_light">#ffff4444</color>
+    <color name="cube_mints_333333">#333333</color>
+    <color name="cube_mints_4d90fe">#4d90fe</color>
+    <color name="cube_mints_666666">#666666</color>
+    <color name="cube_mints_999999">#999999</color>
+    <color name="cube_mints_app_base_background">#373737</color>
+    <color name="cube_mints_base_font_color">#007edf</color>
+    <color name="cube_mints_black">#000000</color>
+    <color name="cube_mints_cccccc">#cccccc</color>
+    <color name="cube_mints_f1f1f1">#f1f1f1</color>
+    <color name="cube_mints_main_color">#007edf</color>
+    <color name="cube_mints_white">#ffffff</color>
+    <color name="green">#FF34A350</color>
+    <color name="red">#FFC93437</color>
+    <color name="yellow">#FFF7D23E</color>
+    <declare-styleable name="DotView"><attr format="dimension" name="dot_radius"/><attr format="dimension" name="dot_span"/><attr format="integer" name="dot_unselected_color"/><attr format="integer" name="dot_selected_color"/></declare-styleable>
+    <declare-styleable name="MoreActionView"><attr format="dimension" name="more_action_dot_radius"/><attr format="dimension" name="more_action_dot_span"/><attr format="reference|color" name="more_action_dot_color"/></declare-styleable>
+    <declare-styleable name="PtrClassicHeader"><attr format="integer" name="ptr_rotate_ani_time"/></declare-styleable>
+    <declare-styleable name="PtrFrameLayout"><attr format="reference" name="ptr_header"/><attr format="reference" name="ptr_content"/><attr format="float" name="ptr_resistance"/><attr format="float" name="ptr_ratio_of_header_height_to_refresh"/><attr format="integer" name="ptr_duration_to_close"/><attr format="integer" name="ptr_duration_to_close_header"/><attr format="boolean" name="ptr_pull_to_fresh"/><attr format="boolean" name="ptr_keep_header_when_refresh"/></declare-styleable>
+    <declare-styleable name="ScrollHeaderFrame"><attr format="reference" name="scrollheaderframe_header"/><attr format="reference" name="scrollheaderframe_conent_container"/><attr format="reference" name="scrollheaderframe_footer"/><attr format="boolean" name="scrollheaderframe_disable"/></declare-styleable>
+    <declare-styleable name="SliderBanner"><attr format="reference" name="slider_banner_indicator"/><attr format="reference" name="slider_banner_pager"/><attr format="integer" name="slider_banner_time_interval"/></declare-styleable>
+    <dimen name="cube_mints_content_view_padding">12.5dp</dimen>
+    <dimen name="cube_mints_header_height">44dp</dimen>
+    <string name="app_name">Ultra PTR</string>
+    <string name="cube_mints_exit_tip">Tap back once more to exit.</string>
+    <string name="cube_ptr_hours_ago"> hours ago</string>
+    <string name="cube_ptr_last_update">last update: </string>
+    <string name="cube_ptr_minutes_ago"> minutes ago</string>
+    <string name="cube_ptr_pull_down">Pull Down</string>
+    <string name="cube_ptr_pull_down_to_refresh">Pull Down to Refresh</string>
+    <string name="cube_ptr_refresh_complete">Updated.</string>
+    <string name="cube_ptr_refreshing">Updating...</string>
+    <string name="cube_ptr_release_to_refresh">Release To Refresh</string>
+    <string name="cube_ptr_seconds_ago"> seconds ago</string>
+    <string name="cube_views_load_more_click_to_load_more">Click to load more</string>
+    <string name="cube_views_load_more_loaded_empty">It is empty. :(</string>
+    <string name="cube_views_load_more_loaded_no_more">All the data has been loaded</string>
+    <string name="cube_views_load_more_loading">loading...</string>
+    <string name="ptr_demo_block_auto_fresh">Auto Refresh</string>
+    <string name="ptr_demo_block_for_home">Ultra Pull to Refresh</string>
+    <string name="ptr_demo_block_frame_layout">Contains A FrameLayout</string>
+    <string name="ptr_demo_block_grid_view">Contains A GridView</string>
+    <string name="ptr_demo_block_hide_header">Hide Header while Refreshing</string>
+    <string name="ptr_demo_block_keep_header">Keep Header while Refreshing</string>
+    <string name="ptr_demo_block_list_view">Contains A ListView</string>
+    <string name="ptr_demo_block_only_text_view">Contains Even A TextView</string>
+    <string name="ptr_demo_block_pull_to_refresh">Pull to Refresh</string>
+    <string name="ptr_demo_block_release_to_refresh">Release to Refresh</string>
+    <string name="ptr_demo_block_scroll_view">Contains ScrollView</string>
+    <string name="ptr_demo_block_storehouse_header_using_string">StoreHouse Style \n\nusing string</string>
+    <string name="ptr_demo_block_storehouse_header_using_string_array">StoreHouse Style \nusing string array from xml</string>
+    <string name="ptr_demo_block_web_view">Contains A WebView</string>
+    <string name="ptr_demo_block_with_list_view_and_empty_view">EmptyView and ListView</string>
+    <string name="ptr_demo_block_with_list_view_and_empty_view_tip">It\' empty. \n\nClick to load data.</string>
+    <string name="ptr_demo_block_with_long_press">Long Press</string>
+    <string name="ptr_demo_block_with_view_pager">View Pager</string>
+    <string name="ptr_demo_enable_next_ptr_at_once">Enable Next PTR at once</string>
+    <string name="ptr_demo_material_style">Material Style</string>
+    <string name="ptr_demo_material_style_pin_content">Material Style\nPin Content\n v4 style</string>
+    <string name="ptr_demo_placeholder">To be continued</string>
+    <string name="ptr_demo_rentals_style">Rentals Style</string>
+    <string name="ptr_demo_storehouse_header_using_point_list">Using Point List</string>
+    <string name="ptr_demo_storehouse_header_using_string_array_in_title">using xml: </string>
+    <string name="ptr_demo_storehouse_header_using_string_in_title">using string: </string>
+    <style name="CubeTheme.NoBackground" parent="@android:Theme">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="CubeTheme.NoTitleFullScreen" parent="@android:Theme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="CubeTheme.NoWindowAniAndNoTitle" parent="@android:Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>
