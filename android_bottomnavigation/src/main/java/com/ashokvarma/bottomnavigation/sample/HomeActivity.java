@@ -219,6 +219,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+
+    //点击Tab事件
     @Override
     public void onTabSelected(int position) {
         lastSelectedPosition = position;
