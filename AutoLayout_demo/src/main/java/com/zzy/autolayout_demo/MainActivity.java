@@ -19,8 +19,6 @@ public class MainActivity extends AutoLayoutActivity {
         sparseArray.put(2, "ssss02");
 
         Intent intent = new Intent();
-
-
         System.out.println("11111111111:"+sparseArray.get(1));
         System.out.println("22222222222:"+sparseArray.get(2));
 
