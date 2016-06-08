@@ -50,6 +50,8 @@ public class ImageListModelImpl implements ImageListModel
                     Document document = Jsoup.connect(Constant.BASE_URL + type + page).get();
                     Element imageListelement = document.getElementById("blog-grid");
 
+                    System.out.println("------------------imageListelement-----------------" + imageListelement);
+
                     Elements imageListElements = imageListelement.getElementsByAttributeValueContaining("class", "col-lg-4 col-md-4 three-columns post-box");
                     for (Element imageListElement : imageListElements)
                     {
@@ -59,10 +61,6 @@ public class ImageListModelImpl implements ImageListModel
                         String imageUrl = image.attr("abs:src");
                         String imageTitle = image.attr("alt").trim();
                         imageListDomainList.add(new ImageListDomain(linkUrl, imageUrl, imageTitle));
-
-
-                        System.out.println("--------------imageUrl----------------" + imageUrl);
-
                     }
                     subscriber.onNext(imageListDomainList);
 
@@ -99,8 +97,6 @@ public class ImageListModelImpl implements ImageListModel
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(subscriber);
-
-
     }
 
     public interface GetImageListenter

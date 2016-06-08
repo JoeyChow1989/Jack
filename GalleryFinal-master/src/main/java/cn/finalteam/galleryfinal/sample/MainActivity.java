@@ -138,8 +138,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        setSupportActionBar(mToolbar);
         mLvPhoto = (HorizontalListView) findViewById(R.id.lv_photo);
         mPhotoList = new ArrayList<>();
         mChoosePhotoListAdapter = new ChoosePhotoListAdapter(this, mPhotoList);

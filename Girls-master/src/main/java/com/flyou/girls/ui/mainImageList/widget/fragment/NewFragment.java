@@ -79,8 +79,6 @@ public class NewFragment extends BaseFragment implements ImageListView, SwipeRef
             default:
                 mType = Constant.NEW;
                 break;
-
-
         }
         mPersenter.startGetImageList(mType, mCurrentPage);
     }
@@ -113,7 +111,6 @@ public class NewFragment extends BaseFragment implements ImageListView, SwipeRef
         else {
             Toast.makeText(context, e.getMessage().toString(), Toast.LENGTH_SHORT).show();
         }
-
     }
 
     @Override
@@ -155,8 +152,6 @@ public class NewFragment extends BaseFragment implements ImageListView, SwipeRef
             mImageListDomains.addAll(imageListDomains);
             mAdapter.notifyItemRangeInserted(lastPosition, imageListDomains.size());
         }
-
-
     }
 
     private RecyclerView.OnScrollListener mOnScrollListener = new RecyclerView.OnScrollListener() {
