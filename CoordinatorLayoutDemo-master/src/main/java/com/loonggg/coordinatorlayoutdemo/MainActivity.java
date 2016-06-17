@@ -18,22 +18,26 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+{
     private LinearLayout head_layout;
     private TabLayout toolbar_tab;
     private ViewPager main_vp_container;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         AppBarLayout app_bar_layout = (AppBarLayout) findViewById(R.id.app_bar_layout);
         Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+        mToolbar.setNavigationOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
                 onBackPressed();
             }
         });
@@ -43,21 +47,28 @@ public class MainActivity extends AppCompatActivity {
         //使用CollapsingToolbarLayout必须把title设置到CollapsingToolbarLayout上，设置到Toolbar上则不会显示
         final CollapsingToolbarLayout mCollapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar_layout);
         mCollapsingToolbarLayout.setContentScrim(new BitmapDrawable(BlurUtil.fastblur(this, bitmap, 180)));
-        app_bar_layout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+        app_bar_layout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener()
+        {
             @Override
-            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
-                if (verticalOffset <= -head_layout.getHeight() / 2) {
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset)
+            {
+                if (verticalOffset <= -head_layout.getHeight() / 2)
+                {
                     mCollapsingToolbarLayout.setTitle("涩郎");
-                } else {
+                } else
+                {
                     mCollapsingToolbarLayout.setTitle(" ");
                 }
             }
         });
-        Toolbar.OnMenuItemClickListener onMenuItemClick = new Toolbar.OnMenuItemClickListener() {
+        Toolbar.OnMenuItemClickListener onMenuItemClick = new Toolbar.OnMenuItemClickListener()
+        {
             @Override
-            public boolean onMenuItemClick(MenuItem menuItem) {
+            public boolean onMenuItemClick(MenuItem menuItem)
+            {
                 String msg = "";
-                switch (menuItem.getItemId()) {
+                switch (menuItem.getItemId())
+                {
                     case R.id.webview:
                         msg += "博客跳转";
                         break;
@@ -69,7 +80,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
                 }
 
-                if (!msg.equals("")) {
+                if (!msg.equals(""))
+                {
                     Toast.makeText(MainActivity.this, msg, Toast.LENGTH_SHORT).show();
                 }
                 return true;
@@ -90,7 +102,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
